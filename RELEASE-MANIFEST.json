@@ -25,13 +25,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3895,
-      "sha256": "749f4fc6d0768d4ba2b6ca3c09869d0a51243e394f36e93306cbcf14c201f287"
+      "bytes": 6638,
+      "sha256": "ab2bdab2a240c73a9f78c37cdeedad15d2b1f6253c7f50d07ee9c718ca4be860"
     },
     {
       "path": "RELEASE-NOTES.md",
-      "bytes": 1307,
-      "sha256": "d6be2b3816687207b0f1f9c40839ed4f7dba13da5f85f5fde59969ba1edb0837"
+      "bytes": 4287,
+      "sha256": "4c20ad05378ae95ca44effd7386094ecbf57d63a0a57281ad4b4b111e5721968"
     },
     {
       "path": "le-sensvisual/CAPABILITIES.json",
@@ -75,8 +75,8 @@
     },
     {
       "path": "le-sensvisual/RELEASE-STATUS.md",
-      "bytes": 2062,
-      "sha256": "82b0ed8b6bc3ae506015db5634973bb74ee6223f263865a0217f9b4c133a5df0"
+      "bytes": 2245,
+      "sha256": "d31670c6b6357c2b5662fa9d735d614e46c14cd32fcce8ce8958f67aedaf4949"
     },
     {
       "path": "le-sensvisual/SKILL.md",
