@@ -1,0 +1,1208 @@
+{
+  "schema_version": 1,
+  "product": "Le_SensVisual (By TH_Ng)",
+  "version": "0.4.0-rc.15",
+  "sources": [
+    {
+      "name": "Impeccable",
+      "repository": "https://github.com/pbakaus/impeccable",
+      "commit": "6af45ac9a5eb8792f033d3242f52e99812fd91fa",
+      "licence": "Apache-2.0",
+      "runtime_engine_version": "0.1.15"
+    },
+    {
+      "name": "Frontend Slides",
+      "repository": "https://github.com/zarazhangrui/frontend-slides",
+      "commit": "9906a34d640d2111f724544cbc50f7f130569ae1",
+      "licence": "MIT"
+    }
+  ],
+  "modifications": [
+    {
+      "path": "modules/POLICY.md",
+      "reason": "Centralize shared module authority; avoid repeated policy walls",
+      "before": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "after": "33469d8058510f8880d00145dbd3bcd489aa2cf07c8327e6db90ed16d5c509c6"
+    },
+    {
+      "path": "modules/impeccable/WORKFLOW.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "d10d08c44e30d83411a5daa11f6e57b816ec1750fd0104350011c176c7a22f3e",
+      "after": "0ad254848e8324154a6821821c5bfba3cdccf4560516afba8d62b403592f01ad"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-asset-producer.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "6de8815e9132d7f637194374defcd00b4e8e64464ba98f7aedc82692fe5a90cc",
+      "after": "14e5403b35b35b4a4b6be67ec77734a95e58f6261cc35b627dac9a4a09f420b9"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-documenter.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "8b7339e3a5e5de17092d575a1d59989e1112b5069ba8adcfb455aae2103d724a",
+      "after": "7fbd353307a409ff72949d250ca735299004d83419b6190c6a3dd01203549ace"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-finish-reviewer.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "5fd5c4b75757fd4aef5ec72960729ec59b0532abf99da0fb567d918cf9068bc6",
+      "after": "6d88d17c0c6f4c149564f67b5d885c9fa0bdcee3e404ffc989b8037cce043ea1"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-manual-edit-applier.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "eb95a19492aa965b6adda8480241d40df48aaa06d99a9c526c6b6c1dc771df01",
+      "after": "ffa2a8332db5fe0c6f3afe26b19530f4a1c493319ce06894a3e74524d7eb5713"
+    },
+    {
+      "path": "modules/impeccable/reference/accepted-comp.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "a3584b20e0fd65517814ab2988dbd2a0fc8c5854e1ea2be8a7238008d68d03b4",
+      "after": "17768b1fcdfd90a065cf9a6df1577a5cb3154e06714d98909a549863a15a9f65"
+    },
+    {
+      "path": "modules/impeccable/reference/adapt.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "7fa395172f7ee6dce4ee88f9b7dadc07362542ca682acd7404ec341fa1e56432",
+      "after": "9807cdc112b8bcbdeff9cd2516cda4d07129f1d47f29df4d57645344f34950c1"
+    },
+    {
+      "path": "modules/impeccable/reference/adapt.native.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "07f759e869ab46308ab8e4776cbc9587f3b44f43dcad48c953d68861bc280de0",
+      "after": "2455a2613e1fa29b986521c73cbad9424ccda70ef6cbe505779dbca5e16272a2"
+    },
+    {
+      "path": "modules/impeccable/reference/android.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "a3757686a0c2778ccbc0ea321f4460368f26bc0229d2b24c3c694a42ce40b1a0",
+      "after": "058f81f256134841875fd3183e06b37a023de0c877fd2b9eecd97011640791fe"
+    },
+    {
+      "path": "modules/impeccable/reference/animate.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "9d6d186e5da3d4ebffb333f9b58209d847705d11d9b4e761bfb2529bf47b0d3a",
+      "after": "d658c48ffbe0031e8e3b318996cad6ceafe29e40aa50d5bb25e4bf1d6839dc7c"
+    },
+    {
+      "path": "modules/impeccable/reference/audit.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "2e8eb96adbc2536af58f5593fcfd5f750a6f588d599c7a25c8337fb39a7f2927",
+      "after": "beb3c7cbb811c6b39e18ca83e6901b7fd1fca7adf1bafe1a6f07e571cef10e66"
+    },
+    {
+      "path": "modules/impeccable/reference/audit.native.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "b203cd0b268ca3e69937462967b3c88095166ea9f8b5d9c8907bad4c5468794f",
+      "after": "2898eff507738f9102107809e671df3e69f889dee30073030fe96fb2483d8ea3"
+    },
+    {
+      "path": "modules/impeccable/reference/bolder.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "b0f36c1f1bd01eca327d755e935bae11f5c02fb8006635bb613d6c0f82388ec4",
+      "after": "05b78fb0595e4d5afbf5f17470c84e89cf82f205fea3a6e9b6d8d779b7c4aab1"
+    },
+    {
+      "path": "modules/impeccable/reference/clarify.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "cbbf5647e0e14f6b10c7fd43392ecc1d6924acfbf43994d1d147047d73497f42",
+      "after": "173dd66abe65633910dcb04a51f40d6ff2a793f87088f022a02fc4cad24dd133"
+    },
+    {
+      "path": "modules/impeccable/reference/colorize.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "a3cd4b18154e8c06edfbf7e7316077e8dd500d9777ea723c09fc02fe32b3fba2",
+      "after": "bc5f71f1129d0f2c310d913d07c8dc609a1d25644121bd78c308f42d52a0b9e9"
+    },
+    {
+      "path": "modules/impeccable/reference/component-review.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "479855a5e4e9e706470eb2950a72c4bd451e1f303d3a5765618d569f42ab5b08",
+      "after": "257d98ab6b6022c23d08654d719582d081e0d8d7615ff5105ee0398a1ad10a49"
+    },
+    {
+      "path": "modules/impeccable/reference/craft-floor.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "c51f0d79d3e4b403f6b709c1e32a528af608e3cf178799accb2b452d4f99c144",
+      "after": "52b523e92b76daff71be2ec8c732c374c670f8d03e1296388738e581479ec1bb"
+    },
+    {
+      "path": "modules/impeccable/reference/craft.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "39b5fefbf524ad156a4cab2fbc5b65f2358c213a30d59a4c7510704e8d9dd56b",
+      "after": "2d4aea3ec95f01fb967cb6c7f0b3f4e4c2bc1fe6f987d0e9f12c6c25808b4078"
+    },
+    {
+      "path": "modules/impeccable/reference/critique.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "b1b1ad178ebc135d922cae4d55e27460140dd340f763bef9af05541643e0fb98",
+      "after": "acccee34efa31a25b62d3253f854cf7844f7f43afed4cabab96a059d9f63b5d1"
+    },
+    {
+      "path": "modules/impeccable/reference/delight.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "14a5700220c44c9addf2bca02036969b4cede7ea51fd98fe290892942bb89d2c",
+      "after": "098a891028ce59c212b747d3c70468dd750aff7053a703d1336045ed31e0da7c"
+    },
+    {
+      "path": "modules/impeccable/reference/distill.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "ecd046fed780af3c054ae33d9989c1861f0968ca99bdc26d8a1c405a675d26be",
+      "after": "8cec5030792b6246c65d18b45cce5f0f1d3b9ec42afab33cf480b11c9eaa25f8"
+    },
+    {
+      "path": "modules/impeccable/reference/doctor.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "d32ef85f7f067b2c52231a0c96b3da4e1ca4c2da0655ca3138a4dfc72faaf3b5",
+      "after": "9e19c7641494f6725a7e7dd70a63de2cfd106037289bf627426cf9b90a3fcac1"
+    },
+    {
+      "path": "modules/impeccable/reference/document.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "8ed88ce75b25a0114e7db709d5ad928ed1c2cd07f44519782c0d6f0c2dca385e",
+      "after": "531d2b6c8c9affc7b794de7904905ff9b73962b986968fd1e90273eb26930b6e"
+    },
+    {
+      "path": "modules/impeccable/reference/extract.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "9f62e80b14a210b1c5dd036865c9d3a83614451e060cbd4b2220d1b597b2c973",
+      "after": "5477ae97189e5c1236cee71a25a5ae50014429a5a2e6da28355c8021a6cdeddd"
+    },
+    {
+      "path": "modules/impeccable/reference/generate.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "4cfb126cab29ca02b667fa37a7f1ab670c74ad65d01e40eecd1e4e2c28496469",
+      "after": "8a12bbd2b64e01ab247d7452f2f48dde3634a4a02212edd57b1d59c4b5e2f814"
+    },
+    {
+      "path": "modules/impeccable/reference/harden.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "6e49ba8dec911bfe49e4169f3a2382a2d209dfec2a426bd7cd0a87bec2e02989",
+      "after": "f69f1f0b3f97c194795ece67131b533e951130eeb8f202cf40e364b7a6badb7c"
+    },
+    {
+      "path": "modules/impeccable/reference/hooks.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "c17c7f1b884b8a0d818e5f37b46ffe8ae588baf7db565625fca7889ae847b010",
+      "after": "92660cd6409b634ed799e35cdc6d62a5670d933f29c6f7dd19f57ae759dfa614"
+    },
+    {
+      "path": "modules/impeccable/reference/init.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "2e612d1131a6e1b576222f4356bdf2a2be939c4f5e4d3dd68e2a47ab0a5a7487",
+      "after": "51349b3a32c7f907102dd680d8e2df9da27082caf46ee15c673be7ce14a5363b"
+    },
+    {
+      "path": "modules/impeccable/reference/ios.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "60ada207bfb419ad0a570b8319c29403713ca2ad3fb9a2f5bdffa62ab25611bb",
+      "after": "40c87038b5f75147a5952a96237acf312a327bf70c1bcd8e0a5f064625ae9668"
+    },
+    {
+      "path": "modules/impeccable/reference/layout.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "875ceae18559e953dc9949e50374c2daadaebdb58520406b909f552a06c3e081",
+      "after": "7e7d48c28bb2d36a4fd5c37caff4597909ef3e7e77c1fd8fd82cd8312c68b0f8"
+    },
+    {
+      "path": "modules/impeccable/reference/live-setup.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "d297e5a3e3695e94bccc732d4cb38187602349893e7f215a8d400a95b8af55d7",
+      "after": "d71892088a7fa3c4c46cc437301be20598a35e00893b8c4dbc954e33996c6a4b"
+    },
+    {
+      "path": "modules/impeccable/reference/live.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "d03712f9b4d8232e43157da1f849d036ace2c39e8287e5f55ea54b9c9037e0e0",
+      "after": "3bffa285b54f403a46aac63192d4d541c68e7c05833b7854524eb89980331d58"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-operate.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "7cc131b41dae694a4b554c940445117318f0c6fb19f905cf1f8cbafc08a3f430",
+      "after": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-persuade.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "81cf3d22f747b9768abe48bd6cb881b8807809b8995f20096cfb442dadf550bc",
+      "after": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-read.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "20da46dd620da4433736173b130de306ceeb124dac83fccf664a12e236ee0b8d",
+      "after": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5"
+    },
+    {
+      "path": "modules/impeccable/reference/new-work.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "386c12c61773cc154449336ec8a852d12eddfd3206e6cf1af97eba752959b65a",
+      "after": "dde328bba949e66d3a409ede417524b2740ba51ce6e117f1e5e68e5d843d8f35"
+    },
+    {
+      "path": "modules/impeccable/reference/onboard.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "3dbda622366c2161e8a7ab585298895a0a9332ee65724a5009b378b0f4b1ab60",
+      "after": "a2b8fd01ea12139b39b3285393f805bb8c326e11b2234dbff4c26c17b4e9c280"
+    },
+    {
+      "path": "modules/impeccable/reference/operate.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "c4b169ab7932329c833750971c53bc129d0385e16d0219b31f002792fce939e8",
+      "after": "405b05c53c51becd7a47f604850c04bcc88b0ac6721578e8ac38aa6e143af36c"
+    },
+    {
+      "path": "modules/impeccable/reference/optimize.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "bf39d3e644880f99310578558634377efe3af9872c166a94423b687205e48f38",
+      "after": "89d679ec08e55fe7661d54addc950c2ff77cf574aa97e593ec6da089fd1efedf"
+    },
+    {
+      "path": "modules/impeccable/reference/overdrive.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "0386e434919124508d57358ad78eea905ef3d4de464e64f8d1ffd4097dc404ba",
+      "after": "0a0d4ae6eea720c6d6e1c073fc77192d7c2100f78a44d9a8d262ddf22270cf4d"
+    },
+    {
+      "path": "modules/impeccable/reference/polish.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "e0f8997a76ff955449cc65bf2d9fcc542d893700a30b56fb2c5e5d8a438410f7",
+      "after": "cf0c7db42a7cf0e736b59f65ccbe36255bb7d683f26eb9863c384f0b52efb3e8"
+    },
+    {
+      "path": "modules/impeccable/reference/quieter.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "f348d23d8a60bb1e3956489512129edd2993343eead114d06ff398e2a2caab8a",
+      "after": "fbe1f002b5b9348e74e2495788aed5591bb6c51a62703c731cbce2f528fec11c"
+    },
+    {
+      "path": "modules/impeccable/reference/region-map.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "af58ff0b02c6507be860624f122f6d2f4f36bddf18f143b2d5036962bea932c6",
+      "after": "6a292e95299a2dfcada673fea16b8db414b9a488a66e529f45d931f0fef6c1df"
+    },
+    {
+      "path": "modules/impeccable/reference/routing.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "3347cc1bf41d7b34e32617a468a7064fc1740eb7c1abe4ff479be07cfebec5b5",
+      "after": "4dc3295813c2f0abbe9334b567dde8c282ee49453027656b5bc21db51d88d08a"
+    },
+    {
+      "path": "modules/impeccable/reference/shape.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "51960b514f8437baf12484dd5be824e0c2d0ee8802e29e7f511e431493a6c417",
+      "after": "a55f016c046cb6a27c55bd7f346375aeb506a755c4fbca19a5f92dbd42309c23"
+    },
+    {
+      "path": "modules/impeccable/reference/typeset.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "c4207b441bf95affaa9eb1a0c7daa124b8a91b22aeadfb0d47643c56fe12a563",
+      "after": "a8546b15dee888df440758e6f558d62e00099cc8c3b68a5099fd1ed46ce1fb46"
+    },
+    {
+      "path": "modules/impeccable/reference/visualize.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "f3fa0f21096d7db32cd494dd0b5d206c19fedb65d159874778ef6d5a23000338",
+      "after": "0fe7865c3d66cd12449e410dc4a3173b5183d2ebf0dbe727e212c941af9c5109"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/asset-producer.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "09456545fe32b648e2bd5bb6a1e807e4fb40b440c3abe6730cd179a3db808d9e",
+      "after": "b4c6710c5c4afdda68d05564b9d3655fcbc3b10771bea1491bcce35c16f23718"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/documenter.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "4609eff24dc4e74450a80b696092085255bb3fd068e8046163934e44bda49503",
+      "after": "bcc05ea92faebb5c74037a9d4263a5ce9a56f5ab07c8ab3c59ee704d8cade745"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/finish-reviewer.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "ffceed2530950ec2e6e82a4e07dca5854330ad9aa94bb4007d7cce5079845cd7",
+      "after": "c33c4cfa7f0ce0bedde80d4fc3b595e747d0e9b43a77f06cacb8e899802f709d"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/manual-edit-applier.md",
+      "reason": "Resolve module-local resources and contextualize inherited absolute wording",
+      "before": "1b3672f3f3ae0065fbaac8a9025b759da40caeaa75cb716b629e4544c03ad8fb",
+      "after": "5fae7f8a2fc3ddd49ad0a413446dc44daedef5b6b7de5eb935bd2fbfad646d58"
+    },
+    {
+      "path": "modules/impeccable/reference/accepted-comp.md",
+      "reason": "Retain complete comp workflow as conditional accepted-reference capability",
+      "before": "17768b1fcdfd90a065cf9a6df1577a5cb3154e06714d98909a549863a15a9f65",
+      "after": "6a5c42fd7edeafaa664622d970b4ddbdddf8cca748da6844e4049fcc97df86f1"
+    },
+    {
+      "path": "modules/impeccable/WORKFLOW.md",
+      "reason": "Replace competing entry point with TYY-routed interface module",
+      "before": "0ad254848e8324154a6821821c5bfba3cdccf4560516afba8d62b403592f01ad",
+      "after": "8eb4bc72dfb8d9ffee4f2ce1df0a9344b65c374661ac989587b07329a066f924"
+    },
+    {
+      "path": "modules/impeccable/reference/new-work.md",
+      "reason": "Remove mandatory comp-first/random-world defaults while retaining optional capabilities",
+      "before": "dde328bba949e66d3a409ede417524b2740ba51ce6e117f1e5e68e5d843d8f35",
+      "after": "9098aaf39d7accdc43b591c7f8e31eed71b2cb8d17a6d177f6931a57b576e356"
+    },
+    {
+      "path": "modules/impeccable/reference/craft-floor.md",
+      "reason": "Replace global aesthetic bans with technical floor and contextual TYY judgment",
+      "before": "52b523e92b76daff71be2ec8c732c374c670f8d03e1296388738e581479ec1bb",
+      "after": "003983be25576e2c4c6926b8391debe1298cceae6496e50ead4e69c81bc743ce"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-read.md",
+      "reason": "Allow subject world inside teaching content, not only reading-page chrome",
+      "before": "a569989e6a3d6453b4c45e9474e162a15cc54e11732ac6baa7990a6e7cccc0b5",
+      "after": "4c563e7abe1d488a331a56a6eecda2c997dd94abeb3322e93b57506992c7f676"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-operate.md",
+      "reason": "Make mode/preview guidance subordinate to resolved TYY task, with specialist detail retained",
+      "before": "7a52dd7a94ee75f6ae89542c86a1b6e1d306812b16e0d9dbf12d4acad44d148b",
+      "after": "0d62f70e55658a1653b0476b5d1de5bf08495d410ec91bb09e5c612db93c9cd5"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-persuade.md",
+      "reason": "Make mode/preview guidance subordinate to resolved TYY task, with specialist detail retained",
+      "before": "21e78c8a77badb3f83290cd4577ed3b24bd4dd3b57136d7da75733d4f3ee9ac0",
+      "after": "55d59f31d326c36974d506cb576eb84faa7674f10636fcb90be74749fb4d4c55"
+    },
+    {
+      "path": "modules/impeccable/reference/operate.md",
+      "reason": "Make mode/preview guidance subordinate to resolved TYY task, with specialist detail retained",
+      "before": "405b05c53c51becd7a47f604850c04bcc88b0ac6721578e8ac38aa6e143af36c",
+      "after": "b474362d2c6a72d6a84076987173cb9170b1ce1b878daf236a23d6eecc215946"
+    },
+    {
+      "path": "modules/impeccable/reference/visualize.md",
+      "reason": "Make mode/preview guidance subordinate to resolved TYY task, with specialist detail retained",
+      "before": "0fe7865c3d66cd12449e410dc4a3173b5183d2ebf0dbe727e212c941af9c5109",
+      "after": "d2a1f32db1536aa27667c39ff1a24b6e67b2dd9b365dbb5df8eba0a22a339fa7"
+    },
+    {
+      "path": "modules/impeccable/reference/document.md",
+      "reason": "Distinguish proposed primitives from observed implementation",
+      "before": "531d2b6c8c9affc7b794de7904905ff9b73962b986968fd1e90273eb26930b6e",
+      "after": "562f90f49bc4c294d457c2932c2d6d88cab1a0586686430605fd59a57473ce4d"
+    },
+    {
+      "path": "modules/impeccable/reference/critique.md",
+      "reason": "Keep full critique criteria and persistence without compulsory delegation/interview gates",
+      "before": "acccee34efa31a25b62d3253f854cf7844f7f43afed4cabab96a059d9f63b5d1",
+      "after": "f740d38b4bf0b59c941d493d6359e25d5d748ef3d528f99e97dce3065217cc42"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-finish-reviewer.md",
+      "reason": "Replace taste-ban/state-machine-only judgment with TYY-first contextual finish review",
+      "before": "6d88d17c0c6f4c149564f67b5d885c9fa0bdcee3e404ffc989b8037cce043ea1",
+      "after": "a92335637be812f2982049583b33432d0570090b8fa2fa048a1818c3ac4f7985"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-documenter.md",
+      "reason": "Retain production/source-edit agent expertise under TYY authority; agent use remains conditional",
+      "before": "7fbd353307a409ff72949d250ca735299004d83419b6190c6a3dd01203549ace",
+      "after": "2efee9b7987760e7c2711abc1b136858016d271bd05a99e941412780e13949f1"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-asset-producer.md",
+      "reason": "Retain production/source-edit agent expertise under TYY authority; agent use remains conditional",
+      "before": "14e5403b35b35b4a4b6be67ec77734a95e58f6261cc35b627dac9a4a09f420b9",
+      "after": "12ff2906160391fa057bc1dcd8a749eafdff7b2b32406ba775d09387cc9852b5"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-manual-edit-applier.md",
+      "reason": "Retain production/source-edit agent expertise under TYY authority; agent use remains conditional",
+      "before": "ffa2a8332db5fe0c6f3afe26b19530f4a1c493319ce06894a3e74524d7eb5713",
+      "after": "113ea79a674356e1cc0d4e615ede3305b051739c3a512e2c862b15d222801230"
+    },
+    {
+      "path": "modules/frontend-slides/WORKFLOW.md",
+      "reason": "Retain HTML workflow while removing compulsory style discovery, global font bans and output forcing",
+      "before": "491b333f92e31f97395d6ca54f1a6e390f223db4174935f024be6ba9a0ba1a8f",
+      "after": "388a905a3b98276663b91b30e5ac0beb0946d602dd54b3f41d2fb06011742f18"
+    },
+    {
+      "path": "modules/frontend-slides/STYLE_PRESETS.md",
+      "reason": "Remove global illustration/font bans; retain all 12 palettes and style capabilities",
+      "before": "ef5a209b93f36cadba58d56450fd3af2f489aeddf178f1125dc1fb363660985e",
+      "after": "51e72b88d862939cf175ef66d67bf73e4023140fbbf8ed46d58a92e41cecda26"
+    },
+    {
+      "path": "modules/frontend-slides/html-template.md",
+      "reason": "Connect partial upstream skeleton to complete parent runtime",
+      "before": "f1e5a5ec278d358b354e7852a6f94f828155155dc068144e6d42105b1be9913f",
+      "after": "8cf08dface57f154065996c99ae39d428b8c9aa0329cb66c00d8b66e94e52d0b"
+    },
+    {
+      "path": "modules/impeccable/reference/accepted-comp.md",
+      "reason": "Remove general new-work duplication from conditional fidelity procedure",
+      "before": "6a5c42fd7edeafaa664622d970b4ddbdddf8cca748da6844e4049fcc97df86f1",
+      "after": "65704237af214e8df355bf76e6f90edbe6bee37e829f9ce4c2cd0175263d6a49"
+    },
+    {
+      "path": "modules/impeccable/reference/init.md",
+      "reason": "Remove compulsory interview and comp-first persistence defaults; retain durable context capability",
+      "before": "51349b3a32c7f907102dd680d8e2df9da27082caf46ee15c673be7ce14a5363b",
+      "after": "45696c36a39b565ac2e45f25908b386ccb94e63007ffad39b2f34477672238c1"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-operate.md",
+      "reason": "Preserve task affordances without restricting world-building to four surface properties",
+      "before": "0d62f70e55658a1653b0476b5d1de5bf08495d410ec91bb09e5c612db93c9cd5",
+      "after": "5ee7e7d6206159095c4ec02a76ffb4f86155212e6c6af599d4cb914cc7740787"
+    },
+    {
+      "path": "modules/impeccable/reference/visualize.md",
+      "reason": "Remove fixed comp count and update conditional fidelity routing",
+      "before": "d2a1f32db1536aa27667c39ff1a24b6e67b2dd9b365dbb5df8eba0a22a339fa7",
+      "after": "9365491c49494d862a803abfe80efdc1664c74a4269d7ab7ed6bf16239f14f22"
+    },
+    {
+      "path": "modules/impeccable/reference/live.md",
+      "reason": "Make live variation compatible with identity preservation",
+      "before": "3bffa285b54f403a46aac63192d4d541c68e7c05833b7854524eb89980331d58",
+      "after": "8eeace55119272d82f1d25b17323e97507a67c890a34cb5c47c6c734940627d1"
+    },
+    {
+      "path": "modules/impeccable/reference/distill.md",
+      "reason": "Prevent simplification quotas from deleting needed meaning or visual identity",
+      "before": "8cec5030792b6246c65d18b45cce5f0f1d3b9ec42afab33cf480b11c9eaa25f8",
+      "after": "4e149bdc020fa8d955e491b9f764c1967a32983c994c51409ec70a71c8557b3b"
+    },
+    {
+      "path": "modules/impeccable/reference/quieter.md",
+      "reason": "Remove arbitrary saturation/dosage rules that can reverse intended quieting",
+      "before": "fbe1f002b5b9348e74e2495788aed5591bb6c51a62703c731cbce2f528fec11c",
+      "after": "04e13b1085901a2eaadd1dc377aee9c37613b993b64049aea9c3dd84d8bbf3fe"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/8-bit-orbit/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "07834e986b5b654c5787f7e9513dafb929c5b0ba79f4c46a6b1db6b32c5ff481",
+      "after": "f108fee3e2b442d626c244481ba5572aaec8997f6ff76c6f906775ba757951e2"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/biennale-yellow/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "fa52e1356dffd1dca603c9f0021ded7e7f3d090554424cc98008458a93bb5b52",
+      "after": "030beb2d603fc56920d005ac16c1c0229d97783852cdbddeaeec25e7908a61bd"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/block-frame/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "9a3cb90c011605bbb70c1d2f4a48b7d48a65680b1f509045d2e142e518e349a7",
+      "after": "ee7a979fa2e00cc50717caaae2f71cbc683f1391f29e2907e1674e3b8b8dbf3d"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/blue-professional/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "6d05c7913890f8d036e72499ff2f0e9e06b4e90cca9e2a16bdf3ca51a9bdc1a0",
+      "after": "c4109048c95236c7dde2c7f606a05f9e41df20c0ebf642feb85aff0e78e42caa"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/bold-poster/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "7dfadafc2e8d7bd7233ea6862158e7ca28fe367b3e8e3e16b8478177c2f08359",
+      "after": "f50bc0010ca524ad71390d76068c18414a718c0bafbbdd1a21fa830b4efa9b3b"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/broadside/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "20cb07f246e7d0b2c55b1c90633b3613cf071325803a9818a9ea57b93f07b9f9",
+      "after": "4d4a1d9a51db219235d1f485f0a7d3af9926eea42ecc1be77e30c9f769e09785"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/capsule/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "990d0813bd959262bceb7ef1a49591ef6465a681b71d3a9f138b3a048c1bace3",
+      "after": "ce8e51afe193e66b47fb03488127414d151bd31a9ad3f094687f03f607f8a8e6"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/cartesian/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "1d20db8ad3866dc1872201b8e89d17fb3806362d2711913a6efc47d429342edf",
+      "after": "eec15955a9b51ba72edcabaa4f414372a491106b872971a1df9c4dfbdd6f2c1c"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/cobalt-grid/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "3c6ac5dec3ad9493514cdf9800de3cb42ff72c48dee517908dcdb5ffc307529f",
+      "after": "2989e6cdbe8228aa8aea547711c669e0291c7b495f5e0ff671bdc2529b04b8e1"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/coral/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "3cf86a8e10c7e90f612e6d4df527f998814e6b8727933b3e856e7bc3b1b20682",
+      "after": "3890780a3a72259a169fc3278dab0d6c844ef3b800eb4ded53f328faf2e9f268"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/creative-mode/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "34ced3d18607cd6427a7feb23cbfbdb85a5218fb44e6a216b7bf7152c12ef5cd",
+      "after": "63c82504786e2716d218b10b2181cf0be9a48368ef52006367dd5065f83fca39"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/daisy-days/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "0244def516d412677410cb7510bc83fcae350b8f251806a15e8f3620320c356b",
+      "after": "6555ee7d780d166a978a0f40ec58201ff095bb164448f82f47d1e6184c64c3d1"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/editorial-forest/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "c408cda3192a5802eb8b8f501eb09777e722fe516837de1345be7c4ebdb1f114",
+      "after": "7206012da76205c2a480d80c63d2dd226af7e8e570b34d425d66a50053a0717a"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/editorial-tri-tone/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "b21fdbbc2c6349427187e3b0a2d47e7d28d791a9e61f2bb37ae1ed77c677d097",
+      "after": "b83af590476ecaed952506430827209025101c927764423918cbeb6549c35fef"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/emerald-editorial/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "4fbf062996da15185fe408c8342da975d8fd894974d4e6d2186c45f558044cbf",
+      "after": "94a311632ef75eb9a60c716391c0a7be0b80cfe2cae193e47fbe2b7e3496adfb"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/grove/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "16aef6c2b424cc37a8a004c0556a884ef35763c1639889c5cb42f43915fe4116",
+      "after": "0462ffc661234fb2bf22da486437a5db56fbb3a7c7dee6d1ce038114af5c4aaf"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/long-table/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "bcb3182b39b328349e631494ae3e8a79811ce8027f782c8837c1060beb4abbd9",
+      "after": "1b6cc2e7d42a03482513c21f700b8ad641adc03c1c1eb077f906467ec3099887"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/mat/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "e80fa0dadb36a63ccce603539f918298aa9933d4aea52170d0c1324857e8313a",
+      "after": "1e705c367134cf7c5689d03806d459eb75e9c3891d31a3c02788f4b6960a71a0"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/monochrome/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "e91c82b4a20965fa4e7fd133d3889769d53dd2a3381ee69e7b8b2e8bdc634b3a",
+      "after": "152d9398d8bf4f8e7630bf398aa9986806c09cc7d55e5b782c7c99bb46e8b986"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/neo-grid-bold/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "e75eaa1934ef9961bc8e4bdbebf4b49d086cdbbcd6a3cdcc69406acc52401404",
+      "after": "611cbf933a5a048161f911074dc91a7e473bf1b114e18a60fa9489a43c03e777"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/peoples-platform/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "b2bf6649debfbef65ea738271f4d4b54e586337d1919f029ca0f2fd11cb2c74f",
+      "after": "bcb37211a80409d7e040e3387187ac3f42d7f4db4a227b96c835fc5ef59a01ac"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/pin-and-paper/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "d8796e102732e0939c5e3568b38f13f7bc257eeee1bdc176c8d0d45ce9febe9d",
+      "after": "b2fb001ee74b074d75cc8bde8053209f51e38a3a0421a8b591ea9e21cce08088"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/pink-script/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "25a191332af895993bc41c42b37d531e5523b0aec1ef6443eb5b666b5c7dabd2",
+      "after": "0ef5087491a9a3ec5882431e6b4d6124ccb3d88aa9923e9210517154477b4593"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/playful/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "9ea91b48f17876617ae74b1ae685487f1e1082f21fba2c2c20f0dfa54e7cb8b1",
+      "after": "c01a94aa076653f418f8986bf95121182897afef3e80305579e086af16e47c62"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/raw-grid/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "89d3b1483a61fb80c2637e0f6c99d84124430f1a3c53536752fe2989f7660a14",
+      "after": "460aee95b094fe082e67f491b4a7e9821a436bc2cca554723b410b5650ea5292"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/retro-windows/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "fd2a476bb4ca70969ed8ff217720633a40f4ae977a064a3ae202ca5fac3033ff",
+      "after": "16f058d9c8cbea51e273594e78b9bf87bd74cd5a055fd31c835816bb626daa61"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/retro-zine/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "c48d2496b6d6dc30c00785ae39e0d29a9c31a9531d4c8e2a95470de1565160f8",
+      "after": "7a6e0297318017ba5c586d8e8c4d85d7d4ba9f3a7e8aea0f3c9ba7507b3e904b"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/sakura-chroma/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "c155eac60e88f68f1f22a73851328d197c16d9ef66d5228952bccf6c17a0abc6",
+      "after": "b96cb44db398993c2ec8da86c2c5311103fb7631bf410bba416ad94e4848c8bf"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/scatterbrain/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "32e3821bff133a69a7002bc9097311c6d00d17289d3aab612e14d01758cc1c53",
+      "after": "7a3db7c26de84b205c49d1e296daa56cb099e4e31708be860548ab4e9333c525"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/signal/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "3a30ccddaab2dd8c3bda56c94c3cef36045987792c08d6ddf9609ba81ce18954",
+      "after": "410b43aa645e3c09119b53b14af1e4e6d2f9c40b7a69f490ead1aeef6ea59eb4"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/soft-editorial/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "8f6dc3e3210c18e6a87a23f640d5cb528447ab8e78f36b16384848bc5fedae93",
+      "after": "13f12a5d9ec1bed6ec05ed4adc1761b3fe67a98db2c3cc997c6efc863a70327c"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/stencil-tablet/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "0569a9f84d2085bed4cb75ac174985127340acd39a9246946e7f35f3a790747d",
+      "after": "8b0644cf3ee84c2bf806d43cf3f1b5eae73087ba66d512438752b511c5ca9a0e"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/studio/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "8d6b7a6062062f745cf78e41f36164bc3f1e1cdd878db09c5d477b1606fc4b82",
+      "after": "7ec488be5785cdd18a33264b738abf5cc5661b4b8953fd86ef123f410a6d0441"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/vellum/design.md",
+      "reason": "Reconcile selected canvas and TYY subject authority throughout style recipes",
+      "before": "e05cd2dd85100742141b77e3b8b724e9713898c982b3c0a21feb9a5387f550b0",
+      "after": "f203bcc148187c8cf501b6a6892abfd26771082243c7950de5c4bad17c4afabd"
+    },
+    {
+      "path": "modules/frontend-slides/WORKFLOW.md",
+      "reason": "Remove remaining discovery/format defaults in specialist entry",
+      "before": "388a905a3b98276663b91b30e5ac0beb0946d602dd54b3f41d2fb06011742f18",
+      "after": "82d2b5ee1ad2e0a87e8a410d5b106d2643f003057b96e3cf54f6f053c2d8b42a"
+    },
+    {
+      "path": "modules/impeccable/scripts/impeccable.cmd",
+      "reason": "Route Windows engine commands through integrated pinned launcher",
+      "before": "e6c5f6a1b4cfb5c2d3548ad7581f4bcfa71f44aa04c5a02d40c9e48102980925",
+      "after": "ec8c59e47d09130826115e36af8f283cf5a595dad73b8cb5efdbad8b0bb0550e"
+    },
+    {
+      "path": "modules/impeccable/scripts/impeccable",
+      "reason": "Route Unix engine commands through integrated pinned launcher",
+      "before": "9bbce8956aa928fa221414867bffe70c3599cbcf9a51e01e198d308826ef5214",
+      "after": "c086d031b815f24e80c8bab888846c37d0da4ea024f2f3dad708517e87eb86a3"
+    },
+    {
+      "path": "modules/impeccable/reference/visualize.md",
+      "reason": "Replace compulsory three-comp/approval and raster-only defaults with conditional visual exploration",
+      "before": "9365491c49494d862a803abfe80efdc1664c74a4269d7ab7ed6bf16239f14f22",
+      "after": "d3836d82764d8f72fbb7bce893cbf13d0195391fb64ee2fa6e64937ce20e276d"
+    },
+    {
+      "path": "modules/impeccable/reference/critique.md",
+      "reason": "Make TYY-first review executable without mandatory delegation, quotas or report ceremony; retain diagnostic frameworks",
+      "before": "f740d38b4bf0b59c941d493d6359e25d5d748ef3d528f99e97dce3065217cc42",
+      "after": "392b5554740aa2eaab7991a4cddd622a5ca717b44f444bf6dcdaf514721d0ea1"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-finish-reviewer.md",
+      "reason": "Reconcile reviewer authority and remove universal style/material bans",
+      "before": "a92335637be812f2982049583b33432d0570090b8fa2fa048a1818c3ac4f7985",
+      "after": "d9eceeb4b72bfeb9d44b146b2c2391499f88376c786d1953ea907563bd84aeaf"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/finish-reviewer.md",
+      "reason": "Keep hookless/self-review aligned with the same TYY finish standard",
+      "before": "c33c4cfa7f0ce0bedde80d4fc3b595e747d0e9b43a77f06cacb8e899802f709d",
+      "after": "d9eceeb4b72bfeb9d44b146b2c2391499f88376c786d1953ea907563bd84aeaf"
+    },
+    {
+      "path": "modules/impeccable/reference/component-review.md",
+      "reason": "Constrain engine-specific material vetoes to its opt-in review workflow",
+      "before": "257d98ab6b6022c23d08654d719582d081e0d8d7615ff5105ee0398a1ad10a49",
+      "after": "2ecd2cd799f7e304f20f5fc327bb0ee7e4c8720d46e26b27a7d88a5d0ca4a00f"
+    },
+    {
+      "path": "modules/impeccable/reference/live.md",
+      "reason": "Do not suppress visual inspection to force live variant novelty; retain actual live protocol",
+      "before": "8eeace55119272d82f1d25b17323e97507a67c890a34cb5c47c6c734940627d1",
+      "after": "9fd1bfc73ec40c5afd4a74061a60e1b74721c02c0e01be8e9eb1b8bd3429786a"
+    },
+    {
+      "path": "modules/frontend-slides/WORKFLOW.md",
+      "reason": "Replace compulsory discovery/options/fixed aspect while retaining every frontend workflow",
+      "before": "82d2b5ee1ad2e0a87e8a410d5b106d2643f003057b96e3cf54f6f053c2d8b42a",
+      "after": "eb802a95eb4878b4b33bfb4145c23ff2cebe5d84f76d44af9286a6c6fba9d007"
+    },
+    {
+      "path": "modules/frontend-slides/html-template.md",
+      "reason": "Make architecture dimensions conditional on actual selected canvas",
+      "before": "8cf08dface57f154065996c99ae39d428b8c9aa0329cb66c00d8b66e94e52d0b",
+      "after": "9283432ca987400498b8a9001a6b4a6ead83193d4b5400c18b5f80c20fdb4aed"
+    },
+    {
+      "path": "modules/frontend-slides/README.md",
+      "reason": "Make architecture dimensions conditional on actual selected canvas",
+      "before": "ec2f4d768a981405b4d7cd280e6c01228af43f31967065ab137964ad2f847926",
+      "after": "e451a9a4c9e02d27ba6caa66bb8684710e584a7e601891d3e12e2b778b43ba4e"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/README.md",
+      "reason": "Make architecture dimensions conditional on actual selected canvas",
+      "before": "b50301b95dfd0201151279c60df6059746a6c9fa3ae1bb90fa49325f2e7add3b",
+      "after": "eb80f2abd65621b2bbcda00826c9e4f2472d98bde4a42a2e2590957d10a512d6"
+    },
+    {
+      "path": "modules/frontend-slides/STYLE_PRESETS.md",
+      "reason": "Prevent duplicate mandatory stage controllers",
+      "before": "51e72b88d862939cf175ef66d67bf73e4023140fbbf8ed46d58a92e41cecda26",
+      "after": "357f1c933c122937cbd5557387fe47ed95a3c861f42fa46c836daa00c323d943"
+    },
+    {
+      "path": "references/tools.md",
+      "reason": "Document actual raw-engine limits, launcher and prebuilt extension behavior",
+      "before": "7e6ddf47d8eed01dc9c33318d5466d4e49d1134f016f443aad078176ce9502ff",
+      "after": "aaa4305646a82281c206d914864ee83f936124c46e7ebe6724f5012cbacee66e"
+    },
+    {
+      "path": "modules/frontend-slides/animation-patterns.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "7447a7c41365af66d3ea5392005053523949d3f07adda7430cdf44e85b7078d7",
+      "after": "1b7b7409893b68c09effb04f20a4603a5168e4956d76c3999c2ba8f86c4bbc8f"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/8-bit-orbit/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "fdf43033d50828d4d48bfbefebd862ce5b11c6a4f69ba479979994e2a1fa638f",
+      "after": "1730889b6d7142f49ca92826f2df6ce52c6cf51c9baa8c3fc09e7e01ab17eea0"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/biennale-yellow/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "4a2e978adb6e2317059af99394b34883f3dd4f71fad2bfdf3e05d383cc755506",
+      "after": "2d23d37cd8d827d02e4184e3e0f5fcd7a8ad89db462d00ae85144b8e2cc616e3"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/block-frame/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "e0ee35866ad1b51c44c8815e0e425bcae9183ced3a1e7617e1c075fdc6d011da",
+      "after": "a37e4662f7325c409a9ce83dbaab8db0bce5d55f7d31ac9f11a56acb496f8dbb"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/blue-professional/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "5a4479e6b4922fafac7f0ad0f50bf538bc85abcaf236f8889c1a6b27c2fc8f1a",
+      "after": "36383d4516ef253bf952e2ebe984c83ea1bc51536bb1417a0285dec7a3e3ad9a"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/bold-poster/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "985c55bf334e82ea6199314561cbb06f4234153b5658bc9b2a1d39dda5fe43b6",
+      "after": "35c37828d6298447689d89c0f99e5aeba668e2c816fb36e75159b10c8dfc3e14"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/broadside/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "4e1a7030696790e0b30185a14aa98467c90986c36cee3b71f44d1e1600b46d10",
+      "after": "5bb7ab8e263c035868e077852da55c5d117e47cef621e8c356926f9649b4a435"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/capsule/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "0177e3c584c95be40f0186e9a35566d152e053f56f85ac40f77566340c5001b5",
+      "after": "94638f4ff1065c079516215736768a93b8842ff78db76e3e6286ccf5aa215aad"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/cartesian/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "8a24bedac28a10203ebfab35d7153ed374c0372335f95bc6f03b296da22b2d10",
+      "after": "163f8c1012b54cc97417320c1c1756e4dd2a97b0b71280411e512ebce01ec12f"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/cobalt-grid/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "ed15e91657a8dd7d8658f3db7918f502268415d429545ff553a4ed2e21de23d8",
+      "after": "2894c2d60953e3a4f077a8cd8ba02d068ea40ab0efe4d91059ccb483ea1ec325"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/coral/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "1ec4e8953deb57fac51b2cf98600f6a723bab6f6c3cd37d80f7c9cc0e797fdf9",
+      "after": "b3c9b0d994c27621eeb9cc53d134940be2eeb304cb55581e3e0d0be1c14576f1"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/creative-mode/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "35dfc887914c5ace50a3bf6222736d19096893ae600994572cc39a783080b402",
+      "after": "b8f149b7c8690188f20945a1b5aa9bc0b4c9857b51214def2b79b509ec53502a"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/daisy-days/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "ed75f112f0e9588724911fe2704c672b822b0b6da0fbd3cd3819ecf48b065e4d",
+      "after": "423d1f7b419028fdfd4a220ee81ef4e611c565b19792f9f95b2862024248248a"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/editorial-forest/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "3e4f64cabfcbc0c32d405597ed44a0cbd56f3c7fb4d67650eae899f40dd24de3",
+      "after": "244f1eaa5065788c75d875de05b48985070a204d04fb6612c8beac34001998e2"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/editorial-tri-tone/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "db9672de2c3f48aa1b4676f258a746e7e685ee28f9b96e30dd9189b0ca5dbb31",
+      "after": "6748839ebbdc5c900c568f13a7e8c33ed07721a09b007eb4eefbfc8c0fe9f5ef"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/emerald-editorial/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "8a97d7c9d16f1c21130d6e8b2ae0a25cae6fa2ef8f18b4fda6c818d01b79582a",
+      "after": "5fbf8e7de29f0650e82e91ad549956ba724450fcea0ca06659636e2c552a8c24"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/grove/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "0c71ace2f95f07e6d5d0d30331b2f7dd9189bef1b8d8331fd4c0ec6aed2880b0",
+      "after": "8de5f0de1d83dd90c7ba6f4e224db335e80fffeb435f5eeebea39a7b4bb2d1f1"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/long-table/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "d29a4385578855d3070e9667feaa8328c71a10b1051f8cb347a072536940e48e",
+      "after": "170e3c48453b09354f92bc4d16135bdce829e5c7d39256295b88dfdfa64cd066"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/mat/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "45232861188b9d6623fc959984b365df9274cbd36c8923d03712df9fc859d788",
+      "after": "ea0d5b9d1c3350759072a785bcfd1164911b871d8a8778a7dbe16739446e2599"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/monochrome/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "3f1f148aff6c130d04f2c25214430ca4766fe17f141a3fb0afa50b5623de83af",
+      "after": "9ae255b11f13b496c238febec2a55b5b478e31119e0361d62c54886aa49fdfed"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/neo-grid-bold/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "3572cde0b2054dd0809ab0a3fbef17b8039712e16013c2e344f28ef80d34c0c3",
+      "after": "d9420683af6d52da513a4c398ced09f5933ae8596671821cf99ba8c69fda3019"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/peoples-platform/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "5aab2242112184a8e725a184acc13c556168868aad04e150aa3c87344231be60",
+      "after": "1faace4b67e1904435a206fde7cf253754bba2542208ae9962e3360e1617157d"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/pin-and-paper/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "49a813df982732160aeda0c5b4443c12117b8e1e97b4ea3547c7f36b9f81540a",
+      "after": "2812cd79ce8bc15b920d9fe21850857215b2363ed25a1de0a54fd0bb3d822fdc"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/pink-script/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "6323d8d68fe733e7f3c04aa77e8f8baad8f535569917a83e98bfbda39c4dc505",
+      "after": "ee0d8bc0f654c8b95fc29680c2b622722fad38b315b5c66218b70106193e456b"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/playful/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "d8f7ca61265c80dfa3d05b4b75e27f71e525614571799bb62e7cbe06acde8e44",
+      "after": "6f297acf7e5d8e1663ef968c0e9875e5e19b7fa848d9ccbab22d14e9511c881e"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/raw-grid/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "f000dd2d6712336fe36c51a0eb21e257fd85db72431c036298c4117f910316eb",
+      "after": "0ce50491490c24dea29d6049db850f7c1bda6ebc6aeb72bc563fe9264765b8db"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/retro-windows/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "906516916922042326fdbd7442eef0a6ca41d4f9b800d32a52831a3ff4d7b774",
+      "after": "f4d9754e70fb17337f474723ad1bd91bdc2217464ad48c2e9c4011589643a0cf"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/retro-zine/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "af89d90f68153d95590237026f7c2af5b99a16c58c7eb011c77a83b2af31cce1",
+      "after": "c7fc560496942399abf77c46c2ba226db39bbb0fb52524d942372e9d4f5b7518"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/sakura-chroma/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "d65ed41cd06d0ce493351c3c358b9931c950cb5644b4a5b6449a6bab2f78d87d",
+      "after": "0f0a07142586449e16c799205291db7e210e499bb70082310bd72b0de659e7e6"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/scatterbrain/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "28d44096531db85dd248800a76fab091cbafc0be6042687dfe026c099052c3e5",
+      "after": "adc35bdbd117188534394a1e030d9344315ae18c71a57b76b5a2f7f462b4f64b"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/signal/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "4e369cda313e5a3631b89935251f6e8856664c0e3184d6c686f7ec23e8afd2ee",
+      "after": "4da8d49501aebba28081acb41853ff06b9267039e839e9d62cd992bbd96fc950"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/soft-editorial/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "45e3df092471d24b92101c17cc6192be44ed664387a21f624b8589e13d601f30",
+      "after": "fbc1bbf90cc808c135e342f9bd56c7c90c1d2b1dfc42834e4eb1b6fb17331e01"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/stencil-tablet/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "f897e21b05934642c76a933724d898de1831e2dbd6e5cb16e8e8c152a559465d",
+      "after": "f69e153924e18f4f5570fbfdd6e418749b1495947c25fe8a0b890ee33c84f7b7"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/studio/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "77fd5f277ca11f6834dad4877431324f28b6e3627363561773df05a412572c6e",
+      "after": "d6e27112f165bb9fcd6e38652326b1b155c37bc375054fe756509d84c61a0a52"
+    },
+    {
+      "path": "modules/frontend-slides/bold-template-pack/templates/vellum/preview.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "88b941e2ae2510241c43633241400eaf94b9bf60912fe0f0176578409a828c99",
+      "after": "c5c1d2f24a4c6cb30bff7b55f9a49b7d841100ff396bae7d2ed4a27ea07da809"
+    },
+    {
+      "path": "modules/impeccable/agents/impeccable-asset-producer.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "12ff2906160391fa057bc1dcd8a749eafdff7b2b32406ba775d09387cc9852b5",
+      "after": "2ca27b9afb22cbfe6a7d6740adab2b682932f09a386d251fe91ce770bd0ee6f2"
+    },
+    {
+      "path": "modules/impeccable/reference/accepted-comp.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "65704237af214e8df355bf76e6f90edbe6bee37e829f9ce4c2cd0175263d6a49",
+      "after": "87485019b8a9a76e61df89f9d485b03af622032026e7a2cba331d9eb1ca30c15"
+    },
+    {
+      "path": "modules/impeccable/reference/audit.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "beb3c7cbb811c6b39e18ca83e6901b7fd1fca7adf1bafe1a6f07e571cef10e66",
+      "after": "5de21e67721a45d6e563162175f683dbbc34e1fc271d99aea772f421384c858c"
+    },
+    {
+      "path": "modules/impeccable/reference/component-review.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "2ecd2cd799f7e304f20f5fc327bb0ee7e4c8720d46e26b27a7d88a5d0ca4a00f",
+      "after": "ae78f2a7ed0f7bb7a5c1f588bc0b357138b9ce62e179e9c9b3ff75137dd7d9c6"
+    },
+    {
+      "path": "modules/impeccable/reference/doctor.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "9e19c7641494f6725a7e7dd70a63de2cfd106037289bf627426cf9b90a3fcac1",
+      "after": "52d9acd27d69b1bb40d95b4e9afe42333e1c6ae43bd7fe699ee51bfc46126893"
+    },
+    {
+      "path": "modules/impeccable/reference/generate.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "8a12bbd2b64e01ab247d7452f2f48dde3634a4a02212edd57b1d59c4b5e2f814",
+      "after": "67597df438b6e099b0cc06b077809fdf4e26d6a92d091ef07e8a314de1ad4780"
+    },
+    {
+      "path": "modules/impeccable/reference/hooks.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "92660cd6409b634ed799e35cdc6d62a5670d933f29c6f7dd19f57ae759dfa614",
+      "after": "6605587296f2c7599309d9c6e2c8d1e971f52b78933e0346320a3268be03b708"
+    },
+    {
+      "path": "modules/impeccable/reference/layout.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "7e7d48c28bb2d36a4fd5c37caff4597909ef3e7e77c1fd8fd82cd8312c68b0f8",
+      "after": "5cad2ed6df9bfe2ef5135afc1453862a427c1709e7853bff1034f2fb682599d8"
+    },
+    {
+      "path": "modules/impeccable/reference/live-setup.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "d71892088a7fa3c4c46cc437301be20598a35e00893b8c4dbc954e33996c6a4b",
+      "after": "ca7d2f088cb7eb292013ac0b135b4c27b943647af93d4caf1fd8a0f3cda77353"
+    },
+    {
+      "path": "modules/impeccable/reference/live.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "9fd1bfc73ec40c5afd4a74061a60e1b74721c02c0e01be8e9eb1b8bd3429786a",
+      "after": "4fe55d04168902f574f0523f0c1253dbeae80d5e6b14cd21b8b949c229269f97"
+    },
+    {
+      "path": "modules/impeccable/reference/polish.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "cf0c7db42a7cf0e736b59f65ccbe36255bb7d683f26eb9863c384f0b52efb3e8",
+      "after": "b692bfe38d324d1175f20c7a673542517d3b96770294a5f19dc3cde8e13edae9"
+    },
+    {
+      "path": "modules/impeccable/reference/region-map.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "6a292e95299a2dfcada673fea16b8db414b9a488a66e529f45d931f0fef6c1df",
+      "after": "3214c8a30b7a8e6e8e154e9f1e7fface0f17a39458ebcf3e8c80f379f6de496f"
+    },
+    {
+      "path": "modules/impeccable/reference/routing.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "4dc3295813c2f0abbe9334b567dde8c282ee49453027656b5bc21db51d88d08a",
+      "after": "a6bcc24aabc8c329331a034e3bb405c1d0f314451d7751c015204df040cd1226"
+    },
+    {
+      "path": "modules/impeccable/reference/typeset.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "a8546b15dee888df440758e6f558d62e00099cc8c3b68a5099fd1ed46ce1fb46",
+      "after": "b8f8ea05ec5b62766004a2ac491d55e89d450df139f3181007bce111b4f07667"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/asset-producer.md",
+      "reason": "Resolve imported command path placeholder to package-root location",
+      "before": "b4c6710c5c4afdda68d05564b9d3655fcbc3b10771bea1491bcce35c16f23718",
+      "after": "a896201df505b0cc3e1e5ab8e6ec3e9981a57d6632aea90f783e7731e84376f5"
+    },
+    {
+      "path": "modules/impeccable/reference/mode-persuade.md",
+      "reason": "Reconcile persuasion/experience with medium-neutral TYY and remove compulsory escalation",
+      "before": "55d59f31d326c36974d506cb576eb84faa7674f10636fcb90be74749fb4d4c55",
+      "after": "021404e89c34ac68ad3f1245ea956a11048dfd8c874706b5d9a6fc39cca7486c"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/documenter.md",
+      "reason": "Remove stale blacklist from the documentation pass",
+      "before": "bcc05ea92faebb5c74037a9d4263a5ce9a56f5ab07c8ab3c59ee704d8cade745",
+      "after": "b30742ebfdd1d0d2a58bdeafda4bfdbe735da26eda5ac5f15e1b2d3359ad1021"
+    },
+    {
+      "path": "modules/impeccable/reference/accepted-comp.md",
+      "reason": "Retain strict engine mechanics while removing mandatory delegation/forced pass limits",
+      "before": "87485019b8a9a76e61df89f9d485b03af622032026e7a2cba331d9eb1ca30c15",
+      "after": "5af24876241f95467b7bf9f4d16dfec5b70d8cdc07932ff0e0e5397173b5f7a8"
+    },
+    {
+      "path": "modules/impeccable/reference/hooks.md",
+      "reason": "Correct immediate detector authority and make hook setup explicitly opt-in",
+      "before": "6605587296f2c7599309d9c6e2c8d1e971f52b78933e0346320a3268be03b708",
+      "after": "05025dc1a32e4d661afb8111c2b44c07a1a7405a39dfcfd92e1725ccff731122"
+    },
+    {
+      "path": "examples/library-journey.html",
+      "reason": "Keep the speech-bubble tail out of its reading field in the authored reference",
+      "before": "298961a510ffcdf9b5e679d2142fa7ae351c31542dd3f246f99d560a750adfc6",
+      "after": "10c29dd53a7faa018ce32cd8b5b159d60341f44c928fdae3be6c5ce978ecb899"
+    },
+    {
+      "path": "assets/authoring.css",
+      "reason": "Use generous deck navigation targets",
+      "before": "20e3b081dacd5ba12e0a75e1d9b09ce1078cd3d69a29210cd610da907eefc262",
+      "after": "8a9fa847546d60a4cc0ac6c9eb4b8cf1a7655cd21a8928c42e2d3f5a111906e5"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/asset-producer.md",
+      "reason": "Preserve parent/user authority in inline specialist role",
+      "before": "a896201df505b0cc3e1e5ab8e6ec3e9981a57d6632aea90f783e7731e84376f5",
+      "after": "87083c83b8d587c17af571faf1f8ba6ae438bb9ff8fd2fb9afc4d768b5e652b0"
+    },
+    {
+      "path": "modules/impeccable/reference/degraded/manual-edit-applier.md",
+      "reason": "Preserve parent/user authority in inline specialist role",
+      "before": "5fae7f8a2fc3ddd49ad0a413446dc44daedef5b6b7de5eb935bd2fbfad646d58",
+      "after": "3be8b69fceb845748d49e2ba583031128e7133219621ed76227c7ad5906d93bd"
+    }
+  ],
+  "new_work_licence": "MIT, Copyright (c) 2026 TH_ng; third-party terms remain applicable.",
+  "integration_build": "integrations/BUILD.json describes browser/WASM assembly and its unverified installation status.",
+  "final_module_hashes": "INTEGRATED-MODULES.json",
+  "runtime_adaptation": "scripts/visuasense.py contextualizes context, palette and concept output; raw output available explicitly. The verified upstream binary is unmodified.",
+  "post_campaign_change": "rc.3 supersedes focal-first sequencing with whole-canvas/regional coordination, per-contribution tools, real asset handoffs, layered assembly and refinement. No new tests.",
+  "post_campaign_resource_audit": "Module README routes through integrated installation; inline role guides preserve parent/user authority.",
+  "coordination_revision": {
+    "version": "0.4.0-rc.3",
+    "changes": [
+      "HTML workflow accepts generated/sourced artwork; native canvas does not dictate asset tools.",
+      "Creative Mode CSS-only restriction and Monochrome no-arrows restriction become sample-specific choices.",
+      "Asset producers treat generated plates as a planned choice, not only what code cannot draw.",
+      "Code-led/buildPath/native-image wording distinguishes assembly protocol from image-generation capability.",
+      "Operate colour/motion prescriptions are contextual; atmosphere remains a valid contribution.",
+      "Shape/init helper descriptions and planning cadence no longer mandate interview rounds."
+    ],
+    "source_archives": "Original pinned archives and upstream binary unchanged.",
+    "current_module_digests": "INTEGRATED-MODULES.json"
+  },
+  "execution_revision": {
+    "version": "0.4.0-rc.5",
+    "scope": "Original first-party portable production coordinator, Python PPTX/HTML adapters, record contract and actual-file delivery reconciliation; existing launcher reads the canonical version.",
+    "upstream": "No imported specialist module, original upstream archive, engine binary, browser extension or hook changed. No proprietary Anthropic source copied.",
+    "api_reference": "python-pptx official shapes/text/charts documentation informed library API use; optional dependency is not vendored.",
+    "evidence": "Static source review and packaging only; new operational code not executed or validated."
+  },
+  "review_revision": {
+    "version": "0.4.0-rc.6",
+    "reviewer": "CodeRabbit CLI 0.9.0; focused rc.4-to-rc.5 execution diff; 16 changed files",
+    "issues": "Four minor issues, all accepted and fixed by source assessment: pending exit status, PPTX cell padding, WebP MIME portability, inherited shape effects.",
+    "additional_fix": "First-party static review restored hidden HTML pages for full-deck printing.",
+    "limits": "No output/runtime tests, no second remote review of patches, no change to TYY core, imported modules, source archives or engine binaries."
+  },
+  "portability_revision": {
+    "version": "0.4.0-rc.4",
+    "scope": "First-party host-neutral native-slide recipe, embedded-reference resolution and unchanged evaluation-derived teaching example.",
+    "upstream": "No specialist module, original source archive, binary, hook or extension changed in rc.4.",
+    "example": "examples/gardens/ASSEMBLY.md describes origin, additional host support and limits; no original TYY deck assets bundled.",
+    "validation": "No new tests or validators; external evaluation requires owner approval."
+  },
+  "modifications_scope": "Historical modification records: before/after hashes describe their recorded revision, not a current-file manifest. Some historical paths were subsequently consolidated. Current release file hashes are in the external release manifest.",
+  "rc15_changes": [
+    "Reconcile mirrored agent roles and metadata; inherit actual host tools/effort",
+    "Scope template, stage, editability and specialist protocol defaults to parent TYY design",
+    "Repair selected-output asset inspection and explicit inline-image envelope support",
+    "Stage complete installations before replacement; contain local serving/deployment assets",
+    "Preserve all prior files and upstream archives; MIT for original work; complete primary distribution"
+  ],
+  "rc16_changes": [
+    "Separate pinned optional resources from native delivery without deleting capabilities",
+    "Use external verified cache and manifest-based installation",
+    "Bound context/detect output with recoverable paths and selected detail",
+    "Repair semantic new-work/craft/mode/variant references and licence metadata",
+    "Generate native and complete-guidance delivery from canonical sources; no new output/runtime test"
+  ],
+  "rc17_changes": [
+    "Consolidate overlapping parent workflow prose into one core action loop without changing TYY authority or specialist capabilities",
+    "Replace abstract decision guidance with two compact message-to-visible-expression worked examples linked to existing source/render pairs",
+    "Align review to visible meaning, placement and missed audience benefit; retain evaluation integrity and production checks",
+    "Generate reduced core chat adapter from canonical core and unchanged eleven-lens anchor",
+    "No specialist, runtime, style, original preview, pinned resource or dependency change; no new output/runtime test"
+  ],
+  "rc18_changes": [
+    "Separate requested delivery and complete TYY composition from generation/assembly selection; remove subject-to-writer shortcut",
+    "Scope assembly mechanics, host operation checks and editable/copyable information to selected method and actual task needs",
+    "Align slide-image clauses with method-neutral selection; inspect example source only when useful to construction",
+    "Preserve all specialist modules, runtime helpers, original previews, styles, pinned resources and eleven-lens anchor; no new output tests"
+  ],
+  "retired_example_history": "Any bakery/library example modification records describe previous candidates only. rc.20 retires those simplified artifacts from active calibration; original files remain in prior exports and development audit. Active owner-selected examples are described in examples/INDEX.md.",
+  "current_release": "0.4.0-rc.23",
+  "public_identity": {
+    "previous_name": "VisuaSense by TH_ng",
+    "native_name": "le-sensvisual",
+    "scope": "Public identity changed in rc.23; historical revision records, source pins and legacy runtime/cache identifiers retained."
+  },
+  "rc23_changes": [
+    "Replace only the existing Haze worked-decision row to make source, movement and consequence visible within its atmospheric world; Gardens first and NLB last preserved.",
+    "Public identity Le_SensVisual (By TH_Ng), native slug le-sensvisual; compatible legacy runtime identifiers retained.",
+    "Installer migration backs up recognised legacy Codex/Claude skills; resource import accepts both package roots.",
+    "Add missing dependency MIT notices and explicit modification attribution to changed Apache-derived active files.",
+    "All four reference image bytes, TYY core/anchor behavior, specialist capabilities, styles, runtime assets and 73 pinned resource members preserved. No new model/output test or publication."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "wasm_sha256": "1c6602662a21ec052a55d89c54cb7ed69af7aae4cbb862e6c97122143d08b421",
+  "source_commit": "6af45ac9a5eb8792f033d3242f52e99812fd91fa",
+  "assembly": "Extracted generated glue and WASM from tracked in-page bundle; concatenated original extension parts according to crates/bundle/src/lib.rs",
+  "status": "Built files; browser installation and native browser-store signing not performed"
+}

@@ -1,0 +1,8 @@
+Le_SensVisual (By TH_Ng)
+Original Le_SensVisual work: Copyright (c) 2026 TH_Ng, MIT.
+
+Includes adapted Impeccable work by Paul Bakaus (Apache-2.0) and Frontend Slides
+work by its credited contributors (MIT). Existing upstream notices remain in
+third-party/ and the unchanged source archives. Integration modifications are
+described in third-party/PROVENANCE.json. Original upstream source is preserved;
+adapted active workflows are governed by the Le_SensVisual parent instructions.

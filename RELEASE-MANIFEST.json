@@ -1,0 +1,1052 @@
+{
+  "name": "Le_SensVisual (By TH_Ng)",
+  "version": "0.4.0-rc.23",
+  "scope": "Public source snapshot; this manifest excludes itself.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 92,
+      "sha256": "bd7b4340f5bc1615ca783b92586e450b500373dedbfd408c7d5304cee33b3d54"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1062,
+      "sha256": "21c1143f6ecd1dc587e46f04d721f0e735908a85a5cc6f74fc6d61c0bddcaad7"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 483,
+      "sha256": "582dde1f7edbc4c56df46150bb01a4e1ec90019375da63dfe371878723b9b935"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3895,
+      "sha256": "749f4fc6d0768d4ba2b6ca3c09869d0a51243e394f36e93306cbcf14c201f287"
+    },
+    {
+      "path": "RELEASE-NOTES.md",
+      "bytes": 1307,
+      "sha256": "d6be2b3816687207b0f1f9c40839ed4f7dba13da5f85f5fde59969ba1edb0837"
+    },
+    {
+      "path": "le-sensvisual/CAPABILITIES.json",
+      "bytes": 50336,
+      "sha256": "9d57f36424af755b6266a5ed60e9001515f0b4d583b70b3d758fee9221ee3fce"
+    },
+    {
+      "path": "le-sensvisual/CHAT-GUIDE.txt",
+      "bytes": 12514,
+      "sha256": "f6d226251f3bd9af1505bf020cc514fca8ac9c440160830d4527860d2b56fdd8"
+    },
+    {
+      "path": "le-sensvisual/DELIVERY.json",
+      "bytes": 11716,
+      "sha256": "235ff2cb6693b99473b759e9508596e69052706ee34868b2eb327be27a0681e3"
+    },
+    {
+      "path": "le-sensvisual/INSTALL.md",
+      "bytes": 6768,
+      "sha256": "03fc96a08ecb85f18b34e147a6b0268317c61ed8f149a4094e31a358375f0d79"
+    },
+    {
+      "path": "le-sensvisual/LICENSE",
+      "bytes": 1062,
+      "sha256": "21c1143f6ecd1dc587e46f04d721f0e735908a85a5cc6f74fc6d61c0bddcaad7"
+    },
+    {
+      "path": "le-sensvisual/LICENSING.md",
+      "bytes": 1219,
+      "sha256": "df71ea753126edd5393feea0f33da7aecea2eaeb8e973863e57711b0fcc366fc"
+    },
+    {
+      "path": "le-sensvisual/NOTICE",
+      "bytes": 483,
+      "sha256": "582dde1f7edbc4c56df46150bb01a4e1ec90019375da63dfe371878723b9b935"
+    },
+    {
+      "path": "le-sensvisual/README.md",
+      "bytes": 3659,
+      "sha256": "1f687894b79644ad6621b00b78fe59bbd4e1dff9298ddfededc86a4790848f0d"
+    },
+    {
+      "path": "le-sensvisual/RELEASE-STATUS.md",
+      "bytes": 2062,
+      "sha256": "82b0ed8b6bc3ae506015db5634973bb74ee6223f263865a0217f9b4c133a5df0"
+    },
+    {
+      "path": "le-sensvisual/SKILL.md",
+      "bytes": 9149,
+      "sha256": "a75bea855a5314f4c5c2f413b5a5436cd46dcc2d997ccbea0a613efa58c3c508"
+    },
+    {
+      "path": "le-sensvisual/agents/openai.yaml",
+      "bytes": 300,
+      "sha256": "d64921a2678dbc32f8bbdb7cab56b6625aa8b42ea5bce5123b1f88babed4e1f1"
+    },
+    {
+      "path": "le-sensvisual/assets/authoring.css",
+      "bytes": 2990,
+      "sha256": "99b176ca5bfe1773e94d6b7ddf28233997f127eaa27d71af22cf2e3b8ca09d01"
+    },
+    {
+      "path": "le-sensvisual/assets/deck-runtime.js",
+      "bytes": 6628,
+      "sha256": "53a43692e86083e79522edd2f0c71df041953612870e941c64876bf7dcd2a13f"
+    },
+    {
+      "path": "le-sensvisual/examples/INDEX.md",
+      "bytes": 4338,
+      "sha256": "e8c92fce9b47b5e8d627440b2de140ad143a6481e2a9af6dfe62f42189ad1b15"
+    },
+    {
+      "path": "le-sensvisual/examples/gardens/ASSEMBLY.md",
+      "bytes": 5627,
+      "sha256": "8be89df41ef5fd55075ece431ff1c9bfccd9eac85b5ebffff97969ca69ad3883"
+    },
+    {
+      "path": "le-sensvisual/examples/gardens/artwork-prompt.txt",
+      "bytes": 3621,
+      "sha256": "20bb1ad78394d42855fe15aee0ee65cc5aa5d8963c5c3cd51f841fb751b8dcb0"
+    },
+    {
+      "path": "le-sensvisual/examples/gardens/preview.jpg",
+      "bytes": 749015,
+      "sha256": "25b75ba77fc0f99559d4a674158bba8d973bb60c5217439aa90b5bf3503f54ac"
+    },
+    {
+      "path": "le-sensvisual/examples/haze.jpg",
+      "bytes": 710307,
+      "sha256": "9a0aa8045b1af557b3dbf10ec5b956536f27abf83949040c8bc1d8a90156b475"
+    },
+    {
+      "path": "le-sensvisual/examples/looplunch.jpg",
+      "bytes": 629919,
+      "sha256": "bf47585162a75d791470a07cfe375d863d36a8f6cabd9c6a6e6cc3848dd212a4"
+    },
+    {
+      "path": "le-sensvisual/examples/nlb-proposal.jpg",
+      "bytes": 716565,
+      "sha256": "a9312f2cdd55403eff5d6dcde9dcdb4e7f0d25d4f0e8a209f4c788bd2e99e3ed"
+    },
+    {
+      "path": "le-sensvisual/integrations/BUILD.json",
+      "bytes": 407,
+      "sha256": "e869ef8ac1af5dbefb96cc34ec8799de7f960d9fb26d3ffc999cc989fd51b51f"
+    },
+    {
+      "path": "le-sensvisual/integrations/README.md",
+      "bytes": 1725,
+      "sha256": "25d54e4bb0e6c4b9c3717f1e2f21c7fd5313048ddbc3dd620428e781b95158e9"
+    },
+    {
+      "path": "le-sensvisual/modules/POLICY.md",
+      "bytes": 1377,
+      "sha256": "3dea98d596e887ad4ae99dfe2d58230f6b111831414ff95fa781cbbb14b2e64b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/LICENSE",
+      "bytes": 1088,
+      "sha256": "1e2322478caf6fb00fa4b35d7a890782197be49dd4812d30b9cde94e4c7d9938"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/README.md",
+      "bytes": 1390,
+      "sha256": "147334e6fca994c0c5ee5362aa36ab5e2418a103757a477d3afaf25aa28f1d87"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/STYLE_PRESETS.md",
+      "bytes": 8599,
+      "sha256": "955d101a0f9400b21f3e3ee014a735168bf667d6aad656ce0168ee736d9c45b5"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/WORKFLOW.md",
+      "bytes": 5622,
+      "sha256": "ec7d06b6794958b5a10e379cb05d82f0a02eca10c9fcb5e421df0c32c3daccbf"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/animation-patterns.md",
+      "bytes": 4225,
+      "sha256": "32f134ac0c3a809334d829d5860d6fafb08a1b6e66c81b77174d4740a75a4798"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/README.md",
+      "bytes": 1564,
+      "sha256": "36182f4e3c235992a931cadc32f1b65acafc2afeffa315fd9be134976b435807"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/deck-stage.js",
+      "bytes": 23367,
+      "sha256": "ef9ce2fce473880909fa13e7c3473cfe279c5e35111a3a6378b2da0bfae94dc0"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/selection-index.json",
+      "bytes": 40100,
+      "sha256": "3e34a6d9f5966355707fb301a5e127fa86ff443ed91d4371dc2ef5598153ebb8"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/8-bit-orbit/design.md",
+      "bytes": 44460,
+      "sha256": "df4ff265019a4dcbc6bdfa6e89895d6beeccd48b5bff56684d6ba9294125c88c"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/8-bit-orbit/preview.md",
+      "bytes": 4725,
+      "sha256": "1730889b6d7142f49ca92826f2df6ce52c6cf51c9baa8c3fc09e7e01ab17eea0"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/biennale-yellow/design.md",
+      "bytes": 46745,
+      "sha256": "36dac85b4bd2c27215d527e3f7770eab226f8413834d3a61b293880197ad193e"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/biennale-yellow/preview.md",
+      "bytes": 4544,
+      "sha256": "2d23d37cd8d827d02e4184e3e0f5fcd7a8ad89db462d00ae85144b8e2cc616e3"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/block-frame/design.md",
+      "bytes": 46211,
+      "sha256": "59179f6c21e48ec0c3b668c67024d5e09937d302a0a6d766d9eb01e6d20fa263"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/block-frame/preview.md",
+      "bytes": 4519,
+      "sha256": "a37e4662f7325c409a9ce83dbaab8db0bce5d55f7d31ac9f11a56acb496f8dbb"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/blue-professional/design.md",
+      "bytes": 51359,
+      "sha256": "864747149592224c6d4cbcd1501a8d9c7ea9dc7949c452773f4e0769be7e81fa"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/blue-professional/preview.md",
+      "bytes": 4724,
+      "sha256": "36383d4516ef253bf952e2ebe984c83ea1bc51536bb1417a0285dec7a3e3ad9a"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/bold-poster/design.md",
+      "bytes": 54339,
+      "sha256": "5925583002bde69390127775f1d73b6ffa08ee9eebd2cce04b834ef0c0b1c107"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/bold-poster/preview.md",
+      "bytes": 4925,
+      "sha256": "145e283f669f65f4ff4e1b358c5fc3c22c91bc1f73556ed76b7877c2e6301280"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/broadside/design.md",
+      "bytes": 38755,
+      "sha256": "da5e3d4fc0c3e7a81eb601bcab15b92f643f605060fcb742ddf9319efd7166d0"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/broadside/preview.md",
+      "bytes": 4296,
+      "sha256": "5bb7ab8e263c035868e077852da55c5d117e47cef621e8c356926f9649b4a435"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/capsule/design.md",
+      "bytes": 40165,
+      "sha256": "a447f9fe444e08e2555157b5fd6260a6b9626b9fbed5a88bfe611bdc82ebd1e0"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/capsule/preview.md",
+      "bytes": 4384,
+      "sha256": "94638f4ff1065c079516215736768a93b8842ff78db76e3e6286ccf5aa215aad"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/cartesian/design.md",
+      "bytes": 36873,
+      "sha256": "a737733efd233f352ad20757d4856bc020d68b7e6dd464689db745419636f8da"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/cartesian/preview.md",
+      "bytes": 4443,
+      "sha256": "163f8c1012b54cc97417320c1c1756e4dd2a97b0b71280411e512ebce01ec12f"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/cobalt-grid/design.md",
+      "bytes": 43032,
+      "sha256": "bea61651d0188156f115e68bf7fa6f559bcaf167a4a52a9de66bcde793f8b8c7"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/cobalt-grid/preview.md",
+      "bytes": 4341,
+      "sha256": "2894c2d60953e3a4f077a8cd8ba02d068ea40ab0efe4d91059ccb483ea1ec325"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/coral/design.md",
+      "bytes": 44501,
+      "sha256": "3957933aa7865feafc0be0c9c549f32afac9226224baae4c943094a80e6eca9b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/coral/preview.md",
+      "bytes": 4515,
+      "sha256": "b3c9b0d994c27621eeb9cc53d134940be2eeb304cb55581e3e0d0be1c14576f1"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/creative-mode/design.md",
+      "bytes": 29416,
+      "sha256": "4850708fc5d696dcb7bf29bd165e8e57b761e80ff9e01a949e6c6841c94ddc15"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/creative-mode/preview.md",
+      "bytes": 4493,
+      "sha256": "b8f149b7c8690188f20945a1b5aa9bc0b4c9857b51214def2b79b509ec53502a"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/daisy-days/design.md",
+      "bytes": 39547,
+      "sha256": "5872672953afc344f76461fb85f8bf2dc43994601c10c99875a3eabb5eb7da54"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/daisy-days/preview.md",
+      "bytes": 4638,
+      "sha256": "423d1f7b419028fdfd4a220ee81ef4e611c565b19792f9f95b2862024248248a"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/editorial-forest/design.md",
+      "bytes": 39239,
+      "sha256": "698ae808f16f1afa84a2ebd3b1e932f600535301902ee07afa90eceaf0f3ecc9"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/editorial-forest/preview.md",
+      "bytes": 4558,
+      "sha256": "244f1eaa5065788c75d875de05b48985070a204d04fb6612c8beac34001998e2"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/editorial-tri-tone/design.md",
+      "bytes": 33175,
+      "sha256": "327c182df8f9521d02d15576a7980132b3f0dd2ee96909dd962e0e6021b8f4b3"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/editorial-tri-tone/preview.md",
+      "bytes": 4757,
+      "sha256": "6748839ebbdc5c900c568f13a7e8c33ed07721a09b007eb4eefbfc8c0fe9f5ef"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/emerald-editorial/design.md",
+      "bytes": 44826,
+      "sha256": "9d671ec41b04da4bdb8a70b0d65902c6382cad3ef6d4259942b0dfb412dc502b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/emerald-editorial/preview.md",
+      "bytes": 4594,
+      "sha256": "5fbf8e7de29f0650e82e91ad549956ba724450fcea0ca06659636e2c552a8c24"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/grove/design.md",
+      "bytes": 45295,
+      "sha256": "246f5a839e37becf253b266d432a186a80d318215cfeb4837a2815309e7a8971"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/grove/preview.md",
+      "bytes": 4899,
+      "sha256": "8de5f0de1d83dd90c7ba6f4e224db335e80fffeb435f5eeebea39a7b4bb2d1f1"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/long-table/design.md",
+      "bytes": 48735,
+      "sha256": "5dd54c26385bba1cfa4359cca504fb442bd199fc0301f9e07467fe0404dce666"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/long-table/preview.md",
+      "bytes": 5226,
+      "sha256": "170e3c48453b09354f92bc4d16135bdce829e5c7d39256295b88dfdfa64cd066"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/mat/design.md",
+      "bytes": 38621,
+      "sha256": "2d33edbf43a9c16f5f1c0225bbb75c8ba63dc272fcb4f3ffb29a0eeb109bf9bf"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/mat/preview.md",
+      "bytes": 4724,
+      "sha256": "ea0d5b9d1c3350759072a785bcfd1164911b871d8a8778a7dbe16739446e2599"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/monochrome/design.md",
+      "bytes": 35918,
+      "sha256": "589d925d5d3205f3acc624cf7d68fa805670ba1d03ae200f3b2ff7473ac3ca1e"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/monochrome/preview.md",
+      "bytes": 4456,
+      "sha256": "9ae255b11f13b496c238febec2a55b5b478e31119e0361d62c54886aa49fdfed"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/neo-grid-bold/design.md",
+      "bytes": 39003,
+      "sha256": "22500f34147f4572bbba323cef5258f3535d0f0c00124015f5df50eb15946ccc"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/neo-grid-bold/preview.md",
+      "bytes": 4430,
+      "sha256": "d9420683af6d52da513a4c398ced09f5933ae8596671821cf99ba8c69fda3019"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/peoples-platform/design.md",
+      "bytes": 38659,
+      "sha256": "8beaefe99ed59d1c4ab088ad41bca382bbeded8010e71a718b161d98eb427bf8"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/peoples-platform/preview.md",
+      "bytes": 4653,
+      "sha256": "1faace4b67e1904435a206fde7cf253754bba2542208ae9962e3360e1617157d"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/pin-and-paper/design.md",
+      "bytes": 42971,
+      "sha256": "511c42176a460812d5625b658022e54e120cd82107e0a4bcc7f1cd5038cc4a6f"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/pin-and-paper/preview.md",
+      "bytes": 4753,
+      "sha256": "2812cd79ce8bc15b920d9fe21850857215b2363ed25a1de0a54fd0bb3d822fdc"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/pink-script/design.md",
+      "bytes": 45500,
+      "sha256": "e059b19a948e29c3ce71d52a4c0c9e2476b070d803030c794b581566dc7ec93b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/pink-script/preview.md",
+      "bytes": 4799,
+      "sha256": "ee0d8bc0f654c8b95fc29680c2b622722fad38b315b5c66218b70106193e456b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/playful/design.md",
+      "bytes": 37022,
+      "sha256": "acbbc976c5d2710eab8ffd1cd49cc01906f94fc43b49fe71396e156693e7e599"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/playful/preview.md",
+      "bytes": 4285,
+      "sha256": "6f297acf7e5d8e1663ef968c0e9875e5e19b7fa848d9ccbab22d14e9511c881e"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/raw-grid/design.md",
+      "bytes": 34610,
+      "sha256": "9df229568db915e5265e95c82ccb045ce5c4706d793c46e2ec127bfef76414c3"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/raw-grid/preview.md",
+      "bytes": 4544,
+      "sha256": "0ce50491490c24dea29d6049db850f7c1bda6ebc6aeb72bc563fe9264765b8db"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/retro-windows/design.md",
+      "bytes": 46021,
+      "sha256": "c708d26f127d3afc88123e4ca50d7b0613e6c8c147daf528067db50c5f610e90"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/retro-windows/preview.md",
+      "bytes": 4717,
+      "sha256": "f4d9754e70fb17337f474723ad1bd91bdc2217464ad48c2e9c4011589643a0cf"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/retro-zine/design.md",
+      "bytes": 43755,
+      "sha256": "22da9cc9f451f79d374bf6865ae94d1eb19b400c49277efd2c555c966ea58a96"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/retro-zine/preview.md",
+      "bytes": 4598,
+      "sha256": "c7fc560496942399abf77c46c2ba226db39bbb0fb52524d942372e9d4f5b7518"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/sakura-chroma/design.md",
+      "bytes": 49467,
+      "sha256": "f58f5e78cb6ccaa685835f97143f51d476bc4ff7299778cedfef49f2a75372fd"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/sakura-chroma/preview.md",
+      "bytes": 4930,
+      "sha256": "0f0a07142586449e16c799205291db7e210e499bb70082310bd72b0de659e7e6"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/scatterbrain/design.md",
+      "bytes": 44918,
+      "sha256": "760653919c07393d0e6bc8d2d9dc7e3f2f6db1a143714ee5dc0b2421f9c64f0d"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/scatterbrain/preview.md",
+      "bytes": 4878,
+      "sha256": "adc35bdbd117188534394a1e030d9344315ae18c71a57b76b5a2f7f462b4f64b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/signal/design.md",
+      "bytes": 39220,
+      "sha256": "1b7cdff8b5e62036005c5f89d5f73b47b33381a52f34c92cdb0406013df838f0"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/signal/preview.md",
+      "bytes": 4801,
+      "sha256": "4da8d49501aebba28081acb41853ff06b9267039e839e9d62cd992bbd96fc950"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/soft-editorial/design.md",
+      "bytes": 44344,
+      "sha256": "611b4c211b84a47b376ac5979e95585f50a2529c021a0e67e54b459dc0fce56b"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/soft-editorial/preview.md",
+      "bytes": 4901,
+      "sha256": "fbc1bbf90cc808c135e342f9bd56c7c90c1d2b1dfc42834e4eb1b6fb17331e01"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/stencil-tablet/design.md",
+      "bytes": 46288,
+      "sha256": "a1d00d7dc7792d85b2ffdc1a819491e51acc6a7abeabb96300fe864abd63aecc"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/stencil-tablet/preview.md",
+      "bytes": 4852,
+      "sha256": "f69e153924e18f4f5570fbfdd6e418749b1495947c25fe8a0b890ee33c84f7b7"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/studio/design.md",
+      "bytes": 39238,
+      "sha256": "e8ddf42545c61a9a44eb54cf42b90f59c947a3a76ab789eec47f912f984e1ed4"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/studio/preview.md",
+      "bytes": 4754,
+      "sha256": "d6e27112f165bb9fcd6e38652326b1b155c37bc375054fe756509d84c61a0a52"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/vellum/design.md",
+      "bytes": 43919,
+      "sha256": "8948e1c4b2c6a98518140e92895df95bc958d6e67c2b4e638375fb156ea80f9c"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/bold-template-pack/templates/vellum/preview.md",
+      "bytes": 4705,
+      "sha256": "c5c1d2f24a4c6cb30bff7b55f9a49b7d841100ff396bae7d2ed4a27ea07da809"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/html-template.md",
+      "bytes": 13100,
+      "sha256": "864b27e019ba319b7196df9ddd912e98bdc4586ea169b8ea6a965d37d27fdb22"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/scripts/deploy.sh",
+      "bytes": 4543,
+      "sha256": "0df6995d34028b4cf8c45d089c05da8ad936cf11907d0f3e428df08886e37c4e"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/scripts/export-pdf.sh",
+      "bytes": 13894,
+      "sha256": "016ad7ee7441fafe53fdc2147ca6fa5085de0cbba7a873507193b1b5f655b457"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/scripts/extract-pptx.py",
+      "bytes": 3172,
+      "sha256": "b79a8520ebb950c3da8f010d5e0c55379b06220fe84274f37dfed8ef83ea2053"
+    },
+    {
+      "path": "le-sensvisual/modules/frontend-slides/viewport-base.css",
+      "bytes": 3232,
+      "sha256": "0a94b1b3b42ce37e006be2c66f5193b804b85cbb8684592bdfe10ed838b0cb2c"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/WORKFLOW.md",
+      "bytes": 1382,
+      "sha256": "8e0ba9b72a571e85f5d39039fa4a4576f922a7c389ccd34edb6b17aabd4ab752"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable-asset-producer.md",
+      "bytes": 8740,
+      "sha256": "ed2e4f3bc7d7966865f3ac035d4c1f3e0a4c36fab66032a899be994ac41bdd6a"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable-documenter.md",
+      "bytes": 3239,
+      "sha256": "652bffb993e669d76ff7f7f9c363260b9f4fb682869712cbb9ac0496979a0b04"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable-finish-reviewer.md",
+      "bytes": 2493,
+      "sha256": "947d4660b08dedcda98024a16f93228e72780b840dcb616d40a2169b6982623e"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable-manual-edit-applier.md",
+      "bytes": 7129,
+      "sha256": "2254b74011bb46a7ed69f3037349e857f95cad4df382d34ddd961f314cb66e44"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable_asset_producer.toml",
+      "bytes": 8821,
+      "sha256": "9adc1813bad4965554d3af23bf46360024c702341735d2fd1791a172fa171f33"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable_documenter.toml",
+      "bytes": 3328,
+      "sha256": "2be58e7be118e60a0fe7e1a8fa6ec352a9b86da7ca801b9ce092d2dc7d62ef7d"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable_finish_reviewer.toml",
+      "bytes": 2654,
+      "sha256": "d78195d55e4a97236164799f24adbe3a7f3f97dbcd80d462951440d8ad86b49c"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/agents/impeccable_manual_edit_applier.toml",
+      "bytes": 7214,
+      "sha256": "8b03d46744189c6d90f7cd8a2cf4b0529ed3c4fcb05edc2a56ab57133e895d01"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/accepted-comp.md",
+      "bytes": 19357,
+      "sha256": "dcd7c71118bb4f6fb96037b7cafb76e3dbe47cfc9ee8a5f7fa53f3fa51cd1b4d"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/adapt.md",
+      "bytes": 11631,
+      "sha256": "c900ce0fac10e453ac57976485a219a127c4f78d48682ac433fa00c590fb6872"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/adapt.native.md",
+      "bytes": 3975,
+      "sha256": "d11caf01ac8fa7b638e9270af8c5288a74b4bd87222ad7623237d634963bd1b4"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/android.md",
+      "bytes": 4093,
+      "sha256": "058f81f256134841875fd3183e06b37a023de0c877fd2b9eecd97011640791fe"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/animate.md",
+      "bytes": 5301,
+      "sha256": "0620365966504be7baa37e38c452db20b2389e4d8123f0c5ed95d20c1894a9b5"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/audit.md",
+      "bytes": 9768,
+      "sha256": "6b0b456402d4c13fc2a451d3cc1618d64ed6ad549e4eff43ab6fd59e5b4594fe"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/audit.native.md",
+      "bytes": 8508,
+      "sha256": "b31b45f098fb96332bd5e4caae644013c894fc158f892eaff305fcfef81c3d92"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/bolder.md",
+      "bytes": 3631,
+      "sha256": "bafe1daa04a93ca7e59d50e3ba7564f8420a0c7960f7729e6e5e7cd83b02c36c"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/clarify.md",
+      "bytes": 4655,
+      "sha256": "27cc5b59bf6dc7d546bf28ae5cc1aa91aeaee08a1aa5a637818d937239533611"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/colorize.md",
+      "bytes": 4602,
+      "sha256": "b995e1b4d27542a0a3f63feb1ad162c64be132de1386d93f361e4a16fc2bbe3c"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/component-review.md",
+      "bytes": 8366,
+      "sha256": "85697d1d6186fd2593fabe7eee31fb603a248745b9530f63f6e151f50ae495cb"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/craft-floor.md",
+      "bytes": 1478,
+      "sha256": "3230b1218077e107cb8499ff0f48d2eafa5d3dea0e009e6fcbaa19e717569380"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/craft.md",
+      "bytes": 693,
+      "sha256": "5e4d2c97995b6b0f9e2884108e055b9c9de0ee5dbe3f2ed999cc61687827b989"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/critique.md",
+      "bytes": 25553,
+      "sha256": "36980da936c0c0486c37ebb4de5368e0b4e91000a073cf93e5f29359bb462888"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/degraded/asset-producer.md",
+      "bytes": 8547,
+      "sha256": "cb9b26cc76adaf0f98afb1e220f60535f59e7f2e2bc8403d5206673fe38a2d4b"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/degraded/documenter.md",
+      "bytes": 3024,
+      "sha256": "03090285b1ab93f54c683abb60a05c7f7560328bb7f6abfd545f2dac6f6894c9"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/degraded/finish-reviewer.md",
+      "bytes": 2326,
+      "sha256": "5bd884b2461178afa02cd93ad3d53692f0a4df612676f213f522ce1ff85e2452"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/degraded/manual-edit-applier.md",
+      "bytes": 6952,
+      "sha256": "7a50e2d4fc68d3ea4c274e36907c6e9a7c65213221bd777d45727414092c3df7"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/delight.md",
+      "bytes": 3781,
+      "sha256": "e9ab94cfe4f713604021430aba28816111ad2e8d6387a63e2dce204ecb0d97fc"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/distill.md",
+      "bytes": 5871,
+      "sha256": "ae30af568992a2ba3df1f7591317581882688e0ac063c7367ab92a863daa6a92"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/doctor.md",
+      "bytes": 5775,
+      "sha256": "c4cd97497723f13b24823296cf56885ec208ae274b8b38fd8e3e417d9837fb01"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/document.md",
+      "bytes": 27628,
+      "sha256": "c932f65903908789bc8f346dce2ea42b7c05ddfb4cbad839b5fe661dc9dbc772"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/extract.md",
+      "bytes": 3406,
+      "sha256": "5477ae97189e5c1236cee71a25a5ae50014429a5a2e6da28355c8021a6cdeddd"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/generate.md",
+      "bytes": 12342,
+      "sha256": "d1613c614612fbde49d8b9e9d997e68271f91c9314d0b314757e13a3d3775411"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/harden.md",
+      "bytes": 9370,
+      "sha256": "7bbce46416642aa4f5222b016347731e8bcecebfd981973f2cf68128dbed2eff"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/hooks.md",
+      "bytes": 14541,
+      "sha256": "0452e9ca18ca7551e98927803716885fd3526170b13dfe46b2c9bf80fa85cd35"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/init.md",
+      "bytes": 1292,
+      "sha256": "5883ba91ebd068aa1944cda3b9175ba6903d5208196072860970280d4c50ec3d"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/ios.md",
+      "bytes": 3812,
+      "sha256": "40c87038b5f75147a5952a96237acf312a327bf70c1bcd8e0a5f064625ae9668"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/layout.md",
+      "bytes": 5219,
+      "sha256": "b665992d7baca98b6774fe080dd272c4d32e9c3504391fb099680453089c4c18"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/live-setup.md",
+      "bytes": 8241,
+      "sha256": "014ff09b9a5cf6261d543ac8f3056dfed43ad04772c9891ae1843b2fb053bcd6"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/live.md",
+      "bytes": 37726,
+      "sha256": "86672d08086c354c43b8db6ef8dc4c856ec7446b1ea91c050245ed91407c5000"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/mode-operate.md",
+      "bytes": 827,
+      "sha256": "48f69b72592af5dd7e9efade7e853fb9977553c706035c29cf229ea887c4ddae"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/mode-persuade.md",
+      "bytes": 1641,
+      "sha256": "5927d10e0d39d5312aa1a58da7002814954df4b2d46f558b5d93540caa5373d1"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/mode-read.md",
+      "bytes": 1106,
+      "sha256": "7e247076d1ead6988bd071d792ea24eae8ffeb9b790959a96dfdbb7083729abf"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/new-work.md",
+      "bytes": 3079,
+      "sha256": "8f501064dfacbbbb0b1d7e0d5d05a0f74e505dc9a99c4e7762a212a282d438b6"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/onboard.md",
+      "bytes": 7753,
+      "sha256": "65245716513fb1027f67bb151bbe2e97666f35b407d7010e0d2602adb49a791a"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/operate.md",
+      "bytes": 4542,
+      "sha256": "d02dc7a9ba2edd0efdfdba4decd94ab78af54e99f73a84744e3108265882d6a6"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/optimize.md",
+      "bytes": 7741,
+      "sha256": "2551cc7a044b4a793003774524a47ce736fb3a5b2342859355af8c16e5949daf"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/overdrive.md",
+      "bytes": 8990,
+      "sha256": "e808c328112baf067469d257412e2b74a4eb94427aee41afc6fc16088280a8fd"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/polish.md",
+      "bytes": 6910,
+      "sha256": "5ce9d59699214040c4dec07d83049e0b82910b094e9cdf6045b7633fd9192694"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/quieter.md",
+      "bytes": 5192,
+      "sha256": "8983089165615f22c5e7a8070554cdaa03d23755d5efb8eab2c7d38f6c275bb5"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/region-map.md",
+      "bytes": 3691,
+      "sha256": "84c07c8ec2dbbd776b6c5c54922f36299c05c2bb3cc61949ab508bcabfdebcb3"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/routing.md",
+      "bytes": 1492,
+      "sha256": "4e7d6ded38950b3f74a719551c36bba98ee555a90a97ccddf654a9a74fa4633a"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/shape.md",
+      "bytes": 3715,
+      "sha256": "189b4f273ee273c8e010da002a39d7ffee5d2d7544d64cedf8213a25297b18ef"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/typeset.md",
+      "bytes": 5314,
+      "sha256": "3f69a93d7fa7f0e64fe12a0630f9404ce9e401f195a24ea9476891e732666a64"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/reference/visualize.md",
+      "bytes": 3243,
+      "sha256": "21caa4ba3274398d155ac592350a53031ab20bb75b91de40847df5b35b33e341"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/VERSION",
+      "bytes": 8,
+      "sha256": "018322ecbafa0715f19221430a49e67d98063ea9a27b69ab316dfb1e5c07de1d"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/command-metadata.json",
+      "bytes": 7540,
+      "sha256": "08c9d34c9cb52acb3bc64cfc7576c533d3ffa53a4b2e1b5b36176d2db364d55a"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/data/font-index-failures.json",
+      "bytes": 2557,
+      "sha256": "7461de9923357d70b1365647b0a85d181eac1702f622cbf24465767f4ba99d06"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/data/font-index.json",
+      "bytes": 1100013,
+      "sha256": "47edbdfaf27073c47033d1ac7dfee881be49e2dcbda7671d1157300481dde6da"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/impeccable",
+      "bytes": 138,
+      "sha256": "394866523076246b69934e1abd0219368b7d92ee42c0c19ab9eae48a3362171a"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/impeccable.cmd",
+      "bytes": 121,
+      "sha256": "f055eb6babbbb59f44bbdfdc12a7c345f0791bba7c75006eae00ea466b783657"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/live-browser-dom.js",
+      "bytes": 10904,
+      "sha256": "300a5e9d08abc67ba85db2e09d730d4d2f8651b609a90d9859391a5dcca944b7"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/live-browser-ignores.js",
+      "bytes": 10588,
+      "sha256": "cab20ca388425390b961d698b37445ba9416b4614852feace997c2375bcf4519"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/live-browser-session.js",
+      "bytes": 4494,
+      "sha256": "e9d1120f59dd311f0321fc56df10fb9f040d775577f5056f996702993a8b38ec"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/live-browser.js",
+      "bytes": 562228,
+      "sha256": "c35d9ee9cb7060fc7c8c9c490d756fae343cdaf5bac4752e799812693207a8d7"
+    },
+    {
+      "path": "le-sensvisual/modules/impeccable/scripts/modern-screenshot.umd.js",
+      "bytes": 29304,
+      "sha256": "9b0dc34415466edac6e6802574006608b5e5c0da9fdcb7b2651dbd1ea06713a6"
+    },
+    {
+      "path": "le-sensvisual/references/assets.md",
+      "bytes": 2948,
+      "sha256": "27fd4cacdd94a24ddfeb09e8a14fb75834ef177d892a2ed1aecd4765a0dd60c3"
+    },
+    {
+      "path": "le-sensvisual/references/continuity.md",
+      "bytes": 1876,
+      "sha256": "104d9e5b058152d837a68a4db8272a4a3b5cc1133f3943c93207f0e76c6e0e82"
+    },
+    {
+      "path": "le-sensvisual/references/design-decisions.md",
+      "bytes": 2873,
+      "sha256": "d053924758d8e2ff9f6a9e385241f921bdaf1278c8f4ac28e7e7c11df159be5a"
+    },
+    {
+      "path": "le-sensvisual/references/execution.md",
+      "bytes": 19313,
+      "sha256": "b52851245dd73499b514a07edaa4e2f3a855e3a15627088cdc2bfcf751693eb5"
+    },
+    {
+      "path": "le-sensvisual/references/formats.md",
+      "bytes": 3940,
+      "sha256": "a5cc9dd6931c28f8b64039904d8c408dedcd29b2723cd69b745d14a29a2946b1"
+    },
+    {
+      "path": "le-sensvisual/references/interface-suite.md",
+      "bytes": 5404,
+      "sha256": "f0831a83861964b959a26209c6fad44bd1d83f0405c45d67ed7d35cf1502c50e"
+    },
+    {
+      "path": "le-sensvisual/references/meaning.md",
+      "bytes": 4567,
+      "sha256": "614f9352881eb9a8bec145111a7d27b076339aa892def826560d1e6a04d74e5a"
+    },
+    {
+      "path": "le-sensvisual/references/native-authoring.md",
+      "bytes": 4574,
+      "sha256": "7bee9b96eccb22cb7874d724c88053231d01b77ea02f18bda234a17d08ed1a27"
+    },
+    {
+      "path": "le-sensvisual/references/native-calibration.md",
+      "bytes": 2077,
+      "sha256": "0268a43b48d6047ce5c115d29e766a931d884e72e9c7670229ad2c6e31e1b057"
+    },
+    {
+      "path": "le-sensvisual/references/presentations.md",
+      "bytes": 7863,
+      "sha256": "f505b04d7df562c4cdccccd0c3caae31ea0119d907405e43abc1af2b9774f125"
+    },
+    {
+      "path": "le-sensvisual/references/production.md",
+      "bytes": 14062,
+      "sha256": "da86914b80f3bf063335a79a6bc620dde41b1a7e281c975e401e2165baf0494b"
+    },
+    {
+      "path": "le-sensvisual/references/review.md",
+      "bytes": 7163,
+      "sha256": "39712ff5135c422cfe720bcaa304f442a8e681a636b156d6483c71796ec88179"
+    },
+    {
+      "path": "le-sensvisual/references/revisions.md",
+      "bytes": 2042,
+      "sha256": "6690a24be892fa732c2ec33be3fccb2dcc5e6866d7ac604e61b5d85470bc898c"
+    },
+    {
+      "path": "le-sensvisual/references/tools.md",
+      "bytes": 15011,
+      "sha256": "3f5c0d6aab46a3eba4a6264b54c0718dc9627f078d36ac09ee577c96fa408d5c"
+    },
+    {
+      "path": "le-sensvisual/references/tyy-anchor.md",
+      "bytes": 7656,
+      "sha256": "4445962e3c80b5740d6cecde18e519bccc97366e4190ebf107c4f636cd351ed1"
+    },
+    {
+      "path": "le-sensvisual/scripts/artifact.mjs",
+      "bytes": 7908,
+      "sha256": "148b254e616d59e15da1c5aff0aafba02e754677b4914583796a1f331ca99786"
+    },
+    {
+      "path": "le-sensvisual/scripts/extract_pptx.py",
+      "bytes": 4447,
+      "sha256": "b1ad56d164662dd3e9c7b521c5e04e5ee78644eb70bda77558301030c2ae4ee9"
+    },
+    {
+      "path": "le-sensvisual/scripts/install.py",
+      "bytes": 7866,
+      "sha256": "d8ce5a913a747af02ed5024db1c51c85edc53fce165095e601105fe93ef59e57"
+    },
+    {
+      "path": "le-sensvisual/scripts/production.py",
+      "bytes": 46682,
+      "sha256": "29b0f40b1b36f18139e664195968a810b827711c150060b1e1ece2c5ca1428fc"
+    },
+    {
+      "path": "le-sensvisual/scripts/production_html.py",
+      "bytes": 11529,
+      "sha256": "94571179faa0b029d21e7ab4d85c145ae92c7fb99254a93aed48df56309347e7"
+    },
+    {
+      "path": "le-sensvisual/scripts/production_pptx.py",
+      "bytes": 11970,
+      "sha256": "60a013b5d87e4f4299a2319d93133d916c28a1cefa71ae0f11fa9f33f655d085"
+    },
+    {
+      "path": "le-sensvisual/scripts/requirements-production.txt",
+      "bytes": 151,
+      "sha256": "e761276a25aea355dffc4a732e24deec300cacafefcf5f7579ce2b08be36db83"
+    },
+    {
+      "path": "le-sensvisual/scripts/resources.py",
+      "bytes": 15683,
+      "sha256": "acf3f087a9456da6077913d7d0209d98964171b651d01c63bfe62965f6dfe1f1"
+    },
+    {
+      "path": "le-sensvisual/scripts/retain_image_result.mjs",
+      "bytes": 1564,
+      "sha256": "cf70289d35a0cd31fbfca8037497391f67a7139a27ebecbceed9d27f419d96dd"
+    },
+    {
+      "path": "le-sensvisual/scripts/visuasense.py",
+      "bytes": 18091,
+      "sha256": "443fa5c7bac1e19dd673bad0e4ead1a854705e4325b7c4c94063d5a41fc0d1dc"
+    },
+    {
+      "path": "le-sensvisual/third-party/ENGINE.json",
+      "bytes": 1548,
+      "sha256": "8b1bcb2f142b00380c29e47ed09b252aa6c61a42d9871fca516abea831f8497c"
+    },
+    {
+      "path": "le-sensvisual/third-party/INTEGRATED-MODULES.json",
+      "bytes": 24798,
+      "sha256": "4768551ea6dd37b3bd0665a02305df1d8b19c14f228470e6bd1891312c73292b"
+    },
+    {
+      "path": "le-sensvisual/third-party/PROVENANCE.json",
+      "bytes": 72253,
+      "sha256": "14da1c6dde333890566a019cb42285ba46f4c86ef5c83f5b9df2ba7987c193d8"
+    },
+    {
+      "path": "le-sensvisual/third-party/RESOURCES.json",
+      "bytes": 15359,
+      "sha256": "ef5d1c111bb998b085f08b55832a54b7dc0ceec74336456b0370f12de7702f8e"
+    },
+    {
+      "path": "le-sensvisual/third-party/dependencies-LICENSE",
+      "bytes": 2666,
+      "sha256": "1a2a049c4ba0f3e4c4cdeee25b92a5303e2b43e8cbb6ec0d1f13ac0d5b864c74"
+    },
+    {
+      "path": "le-sensvisual/third-party/frontend-slides-LICENSE",
+      "bytes": 1088,
+      "sha256": "1e2322478caf6fb00fa4b35d7a890782197be49dd4812d30b9cde94e4c7d9938"
+    },
+    {
+      "path": "le-sensvisual/third-party/impeccable-LICENSE",
+      "bytes": 10957,
+      "sha256": "fc0673369dae07c045c46869d3d4c9113678c77fcc7d3b4e3a39ac074cfa68b6"
+    },
+    {
+      "path": "le-sensvisual/third-party/impeccable-NOTICE.md",
+      "bytes": 514,
+      "sha256": "9bc6cf69fa566aaaf6fa5cf40397597eab8b39f497de61728da7bcf0930db207"
+    }
+  ]
+}

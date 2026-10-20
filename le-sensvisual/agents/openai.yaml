@@ -1,0 +1,6 @@
+interface:
+  display_name: "Le_SensVisual (By TH_Ng)"
+  short_description: "Subject-rich visual communication and practical authoring"
+  default_prompt: "Use $le-sensvisual to create visual material that makes this subject clear, recognisable and engaging."
+policy:
+  allow_implicit_invocation: true

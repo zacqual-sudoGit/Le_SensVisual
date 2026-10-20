@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "name": "Le_SensVisual (By TH_Ng)",
+  "version": "0.4.0-rc.23",
+  "authority": "User intent/facts, TYY visual benefits, resolved design, specialist implementation, technical verification",
+  "entry": "SKILL.md",
+  "profiles": {
+    "native": "Default: all parent and specialist guidance, styles, authoring helpers, runtime data and all four owner-selected same-dimension JPEG calibration previews; DELIVERY.json allowlist. Optional large resources acquired separately.",
+    "offline": "Native plus all five pinned resource companions; preserves every original large resource byte.",
+    "chat_guidance": "Generated ten-entry guidance ZIP: SKILL.md, every specialist/style instruction, helper source sections, resource lookup and original previews. Not an executable install; machine catalogues/browser bundles remain native.",
+    "complete_guidance_txt": "Equivalent full-depth UTF-8 guidance/source library without image pixels; use only relevant RESOURCE sections. Not a promise of complete model attention or tools.",
+    "chat_guide": "Reduced core adapter, explicitly labelled; not the complete specialist library."
+  },
+  "first_pass_visual_reliability": "Not established by packaging; see release acceptance report",
+  "commands": [
+    {
+      "name": "craft",
+      "description": "Compatibility alias for new interface work under the parent TYY design and coordinated production workflow.",
+      "resource": "modules/impeccable/reference/craft.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "init",
+      "description": "Capture missing durable product facts when useful. Reuse the brief and ask only material questions; interviews, live setup and hooks are conditional.",
+      "resource": "modules/impeccable/reference/init.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "document",
+      "description": "Record an actual built visual system in DESIGN.md and its sidecar, preserving useful identity and grounding durable rules in source/render evidence.",
+      "resource": "modules/impeccable/reference/document.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "extract",
+      "description": "Pull reusable patterns, components, and design tokens into the design system. Identifies repeated patterns and consolidates them. Use when you have drift across the codebase and want to bring things back to a consistent system.",
+      "resource": "modules/impeccable/reference/extract.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "live",
+      "description": "Interactive live variant mode. Select elements in the browser, pick a design action, and get AI-generated HTML+CSS variants hot-swapped via HMR. Requires a running dev server. Use when you want to visually experiment with design alternatives in real time.",
+      "resource": "modules/impeccable/reference/live.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "generate",
+      "description": "Agent-driven live variant generation. Boots live mode, finds the named element on the open page, scrolls the browser to it, and delivers N variants in the requested direction for the user to cycle and accept. Use for requests that name an element and a direction, like 'generate 3 bold variants of the pricing cards', skipping manual element picking.",
+      "resource": "modules/impeccable/reference/generate.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "adapt",
+      "description": "Adapt designs to work across different screen sizes, devices, contexts, or platforms. Implements breakpoints, fluid layouts, and touch targets. Use when the user mentions responsive design, mobile layouts, breakpoints, viewport adaptation, or cross-device compatibility.",
+      "resource": "modules/impeccable/reference/adapt.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "animate",
+      "description": "Review a feature and enhance it with purposeful animations, micro-interactions, and motion effects that improve usability and delight. Use when the user mentions adding animation, transitions, micro-interactions, motion design, hover effects, or making the UI feel more alive.",
+      "resource": "modules/impeccable/reference/animate.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "audit",
+      "description": "Assess relevant technical accessibility, performance, theming and responsive findings. Report actual coverage and heuristic severity separately from TYY judgment.",
+      "resource": "modules/impeccable/reference/audit.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "bolder",
+      "description": "Amplify safe or boring designs to make them more visually interesting and stimulating. Increases impact while maintaining usability. Use when the user says the design looks bland, generic, too safe, lacks personality, or wants more visual impact and character.",
+      "resource": "modules/impeccable/reference/bolder.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "clarify",
+      "description": "Improve unclear UX copy, error messages, microcopy, labels, and instructions to make interfaces easier to understand. Use when the user mentions confusing text, unclear labels, bad error messages, hard-to-follow instructions, or wanting better UX writing.",
+      "resource": "modules/impeccable/reference/clarify.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "colorize",
+      "description": "Add strategic color to features that are too monochromatic or lack visual interest, making interfaces more engaging and expressive. Use when the user mentions the design looking gray, dull, lacking warmth, needing more color, or wanting a more vibrant or expressive palette.",
+      "resource": "modules/impeccable/reference/colorize.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "critique",
+      "description": "Review the actual artifact against TYY and audience needs first, then relevant interface lenses and technical evidence. Scores and persona lenses are optional judgments, not user research.",
+      "resource": "modules/impeccable/reference/critique.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "delight",
+      "description": "Add moments of joy, personality, and unexpected touches that make interfaces memorable and enjoyable to use. Elevates functional to delightful. Use when the user asks to add polish, personality, animations, micro-interactions, delight, or make an interface feel fun or memorable.",
+      "resource": "modules/impeccable/reference/delight.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "distill",
+      "description": "Reduce redundant content and visual competition while preserving the subject world, meaning, required information and useful visual contributions.",
+      "resource": "modules/impeccable/reference/distill.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "harden",
+      "description": "Make interfaces production-ready: error handling, i18n, text overflow, edge case management, and resilience under real-world data. Use when the user asks to harden, make production-ready, handle edge cases, add error states, or fix overflow and i18n issues.",
+      "resource": "modules/impeccable/reference/harden.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "onboard",
+      "description": "Design onboarding flows, first-run experiences, and empty states that guide new users to value. Covers welcome screens, account setup, progressive disclosure, contextual tooltips, feature announcements, and activation moments. Use when the user mentions onboarding, first-time users, empty states, activation, getting started, new user flows, or the aha moment.",
+      "resource": "modules/impeccable/reference/onboard.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "layout",
+      "description": "Improve layout, spacing, and visual rhythm. Fixes monotonous grids, inconsistent spacing, and weak visual hierarchy. Use when the user mentions layout feeling off, spacing issues, visual hierarchy, crowded UI, alignment problems, or wanting better composition.",
+      "resource": "modules/impeccable/reference/layout.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "optimize",
+      "description": "Diagnoses and fixes UI performance across loading speed, rendering, animations, images, and bundle size. Use when the user mentions slow, laggy, janky, performance, bundle size, load time, or wants a faster, smoother experience.",
+      "resource": "modules/impeccable/reference/optimize.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "overdrive",
+      "description": "Pushes interfaces past conventional limits with technically ambitious implementations — shaders, spring physics, scroll-driven reveals, 60fps animations. Use when the user wants to wow, impress, go all-out, or make something that feels extraordinary.",
+      "resource": "modules/impeccable/reference/overdrive.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "polish",
+      "description": "Refine the requested scope while preserving intended visual meaning; address consequential omissions before spacing and incidental detail.",
+      "resource": "modules/impeccable/reference/polish.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "quieter",
+      "description": "Tones down visually aggressive or overstimulating designs, reducing intensity while preserving quality. Use when the user mentions too bold, too loud, overwhelming, aggressive, garish, or wants a calmer, more refined aesthetic.",
+      "resource": "modules/impeccable/reference/quieter.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "shape",
+      "description": "Resolve a requested design brief using existing facts and only material clarification. Return the planning deliverable; no compulsory interview round.",
+      "resource": "modules/impeccable/reference/shape.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    },
+    {
+      "name": "typeset",
+      "description": "Improves typography by fixing font choices, hierarchy, sizing, weight, and readability so text feels intentional. Use when the user mentions fonts, type, readability, text hierarchy, sizing looks off, or wants more polished, intentional typography.",
+      "resource": "modules/impeccable/reference/typeset.md",
+      "kind": "agent playbook; executable support when relevant",
+      "requires": "LLM authoring; optional engine/browser/platform tools by operation"
+    }
+  ],
+  "engine": {
+    "version": "0.1.15",
+    "manifest": "third-party/ENGINE.json",
+    "setup": "python scripts/visuasense.py setup --engine",
+    "launcher": "scripts/visuasense.py",
+    "verbs": [
+      "build-phase",
+      "capture-server",
+      "check",
+      "comp-diff",
+      "comp-spec",
+      "component-review",
+      "concept-seed",
+      "context",
+      "context-signals",
+      "critique-storage",
+      "detect",
+      "detect-csp",
+      "doctor",
+      "embed-prompt",
+      "engine-probe",
+      "font-match",
+      "generate-image",
+      "help",
+      "hook",
+      "hook-admin",
+      "hook-before-edit",
+      "hooks",
+      "ignore",
+      "ignores",
+      "init",
+      "install",
+      "link",
+      "palette",
+      "pin",
+      "serve-question",
+      "signals",
+      "skills",
+      "surface-brief",
+      "telemetry",
+      "update"
+    ],
+    "scope": "Pinned Impeccable Rust implementation acquired by explicit setup or engine-offline import. Original source is preserved in upstream-source companion; individual operations still need their stated host/runtime."
+  },
+  "detectors": {
+    "count": 59,
+    "rules": [
+      {
+        "id": "side-tab",
+        "name": "Side-tab accent border",
+        "category": "slop",
+        "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely."
+      },
+      {
+        "id": "border-accent-on-rounded",
+        "name": "Border accent on rounded element",
+        "category": "slop",
+        "description": "Thick accent border on a rounded card — the border clashes with the rounded corners. Remove the border or the border-radius."
+      },
+      {
+        "id": "overused-font",
+        "name": "Overused font",
+        "category": "slop",
+        "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality."
+      },
+      {
+        "id": "flat-type-hierarchy",
+        "name": "Flat type hierarchy",
+        "category": "slop",
+        "description": "Dominant heading and body roles are separated by less than 1.25× at every step, leaving the size hierarchy flat. Add at least one stronger size step."
+      },
+      {
+        "id": "gradient-text",
+        "name": "Gradient text",
+        "category": "slop",
+        "description": "Gradient text is decorative rather than meaningful — a common AI tell, especially on headings and metrics. Use solid colors for text."
+      },
+      {
+        "id": "ai-color-palette",
+        "name": "AI color palette",
+        "category": "slop",
+        "description": "Purple/violet gradients and cyan-on-dark are the most recognizable tells of AI-generated UIs. A gradient in one of those hues is the tell on its own; flat neon ink on a dark ground is charged once a second tell hue joins it. Choose a distinctive, intentional palette."
+      },
+      {
+        "id": "cream-palette",
+        "name": "Cream / beige palette",
+        "category": "slop",
+        "description": "A warm cream or beige page background has become the default \"tasteful\" AI surface, reached for by reflex. Choose a background that comes from a deliberate palette, not the safe warm off-white."
+      },
+      {
+        "id": "nested-cards",
+        "name": "Nested cards",
+        "category": "slop",
+        "description": "Cards inside cards create visual noise and excessive depth. Flatten the hierarchy — use spacing, typography, and dividers instead of nesting containers."
+      },
+      {
+        "id": "monotonous-spacing",
+        "name": "Monotonous spacing",
+        "category": "slop",
+        "description": "The same spacing value used everywhere — no rhythm, no variation. Use tight groupings for related items and generous separations between sections."
+      },
+      {
+        "id": "bounce-easing",
+        "name": "Bounce or elastic easing",
+        "category": "slop",
+        "description": "Bounce and elastic easing feel dated and tacky. Real objects decelerate smoothly — use exponential easing (ease-out-quart/quint/expo) instead."
+      },
+      {
+        "id": "pulsing-dot",
+        "name": "Pulsing status dot",
+        "category": "slop",
+        "description": "Small pulsing status dots simulate liveness decoratively. Reserve pulse animation for indicators tied to genuinely live, changing data; a static indicator with clear labeling is honest and calmer."
+      },
+      {
+        "id": "blinking-cursor",
+        "name": "Decorative blinking cursor",
+        "category": "slop",
+        "description": "A blinking text cursor animated into a hero or landing section simulates typing where no input exists. It borrows the dev-tool aesthetic as decoration. Real editable fields draw their own caret; anywhere else, let the composition hold attention without a fake prompt."
+      },
+      {
+        "id": "shape-assembled-illustration",
+        "name": "Shape-assembled illustration",
+        "category": "slop",
+        "description": "A large inline SVG that builds a pictorial scene from a pile of primitive shapes reads as placeholder clip art, not illustration. Icons, logos, and data graphics are fine at their scale; a hero-sized visual deserves real artwork, a photograph, or a deliberately drawn graphic."
+      },
+      {
+        "id": "organic-clip-path",
+        "name": "Organic contour drawn as clip-path",
+        "category": "quality",
+        "description": "A clip-path polygon with many arbitrary vertices, or a curved clip-path path(), is CSS approximating a torn edge, blob, or silhouette. It reads as the cheap version of the effect and is usually a produced or photographic material replaced with code. Derive an alpha matte from the real image, or ship the shape as a cut-out raster; keep clip-path for geometry (cut corners, diagonals, hexagons)."
+      },
+      {
+        "id": "buried-raster",
+        "name": "Raster buried under a wash or opacity",
+        "category": "quality",
+        "description": "A background image under a near-opaque gradient wash, or a raster on an element at near-zero opacity, never reaches the screen: the page shows the wash, and the produced texture or photo ships as a compliance token. Let the material show (a tint under 0.9 alpha, a blend mode, an opacity you can see) or remove the file."
+      },
+      {
+        "id": "dark-glow",
+        "name": "Glowing shadow accents",
+        "category": "slop",
+        "description": "Colored glow shadows — a zero-offset chromatic halo (box- or text-shadow) on any background, or any colored blurred shadow on a dark background — are the default \"cool\" look of AI-generated UIs. Use neutral elevation shadows and subtle, purposeful lighting instead."
+      },
+      {
+        "id": "radial-halo",
+        "name": "Radial-gradient background halo",
+        "category": "slop",
+        "description": "A chromatic radial-gradient wash — saturated at the center, fading to transparent — used as a decorative background glow on a dark page. Same tell as glowing shadows, drawn with a gradient instead of a shadow. Ground the surface with a solid or subtly shifted background instead."
+      },
+      {
+        "id": "radial-spotlight-glow",
+        "name": "Decorative radial spotlight glow",
+        "category": "slop",
+        "description": "An accent-colored radial gradient fading to transparent, dropped behind a hero or section as a \"spotlight\" and bright enough against that surface to read as a cloud floating over the copy. It is a reflex AI decoration — the translucent cousin of the saturated radial halo. Let the surface stand on its own, or light the composition with a deliberate material accent rather than a floating colored haze."
+      },
+      {
+        "id": "marquee",
+        "name": "Auto-scrolling marquee",
+        "category": "slop",
+        "description": "Continuously auto-scrolling content demands attention it has not earned and hides half its content at any moment. Reserve motion for content that changes; let readers move at their own pace."
+      },
+      {
+        "id": "icon-tile-stack",
+        "name": "Icon tile stacked above heading",
+        "category": "slop",
+        "description": "A small rounded-square icon container above a heading is the universal AI feature-card template — every generator outputs this exact shape. Try a side-by-side icon and heading, or let the icon sit in flow without its own container."
+      },
+      {
+        "id": "italic-serif-display",
+        "name": "Italic serif display headline",
+        "category": "slop",
+        "description": "Oversized italic serif (Fraunces, Recoleta, Playfair, Newsreader-italic) as the primary hero headline reads as taste in isolation but has become the universal AI-startup landing page hero. Set roman, or move to a non-serif display face. Editorial / magazine register may legitimately want this — judge by context."
+      },
+      {
+        "id": "hero-eyebrow-chip",
+        "name": "Hero eyebrow / pill chip",
+        "category": "slop",
+        "description": "A tiny uppercase letter-spaced label sitting immediately above an oversized hero headline — or the same shape rendered as a pill chip — is now the default AI SaaS hero. Drop the eyebrow, integrate the kicker into the headline, or run it as a navigation breadcrumb instead."
+      },
+      {
+        "id": "kicker-above-heading",
+        "name": "Kicker / eyebrow label above heading",
+        "category": "slop",
+        "description": "A tiny tracked uppercase or small-caps label sitting as its own block directly above a heading is banned outright, repeated or not. Generated kickers never earn their place: the heading carries its own weight. Delete the label and let the heading speak; if the words matter, work them into the heading or the body."
+      },
+      {
+        "id": "numbered-section-labels",
+        "name": "Tiny numbered section labels",
+        "category": "slop",
+        "description": "Small numeric index labels riding next to section headings, repeated section after section, are AI editorial scaffolding — a page numbering its own chapters instead of earning structure. Let hierarchy, content, and rhythm carry the sequence."
+      },
+      {
+        "id": "em-dash-overuse",
+        "name": "Em-dash overuse",
+        "category": "slop",
+        "description": "Em-dash saturation in body copy is an AI cadence tell. Advisory only: humans use em-dashes legitimately, so this fires only on saturation — at least 8 em-dashes (— or --) at a density near one per 500 characters of body text — never on a long article that uses a few. Prefer commas, colons, periods, or parentheses."
+      },
+      {
+        "id": "marketing-buzzword",
+        "name": "Marketing buzzword",
+        "category": "slop",
+        "description": "Generic SaaS phrases (streamline / empower / supercharge / world-class / enterprise-grade / next-generation / cutting-edge / etc) are instant AI tells. Pick a specific verb and noun that says what the product literally does."
+      },
+      {
+        "id": "aphoristic-cadence",
+        "name": "Aphoristic-cadence copy",
+        "category": "slop",
+        "description": "Three or more sections landing on a short rebuttal sentence (\"X. No Y.\" / \"X. Just Y.\") or a manufactured-contrast aphorism (\"Not a feature. A platform.\") reads as AI cadence, not voice. Once is fine; the pattern is the tell."
+      },
+      {
+        "id": "oversized-h1",
+        "name": "Oversized hero headline",
+        "category": "slop",
+        "description": "A full-sentence headline set at display size ends up dominating the viewport, leaving no room for anything else above the fold. A punchy one- or two-word headline at that size is fine — the problem is a long headline blown up too large. Set long headlines smaller, or tighten the copy."
+      },
+      {
+        "id": "extreme-negative-tracking",
+        "name": "Crushed letter spacing",
+        "category": "slop",
+        "description": "Letter-spacing pulled tighter than the point where characters keep their own shapes costs legibility. Tighten display type optically, not destructively."
+      },
+      {
+        "id": "broken-image",
+        "name": "Broken or placeholder image",
+        "category": "quality",
+        "description": "<img> tags with empty src, missing src, or placeholder values ship as broken-image boxes. Use real images, generated assets, or remove the tag."
+      },
+      {
+        "id": "script-error",
+        "name": "Uncaught script error on load",
+        "category": "quality",
+        "description": "A script threw an uncaught exception or failed to parse while the page loaded. Broken JavaScript silently kills reveals, interactions, and dynamic content, and can leave most of a page invisible. Fix the error before judging anything else."
+      },
+      {
+        "id": "content-hidden-at-rest",
+        "name": "Content invisible at rest",
+        "category": "quality",
+        "description": "A large share of the page text sits at opacity 0 or visibility hidden even after every reveal handler had a chance to run. This is the failed-reveal signature: the content shipped but never becomes visible. Make content visible by default and let JavaScript enhance its entrance instead of gating its existence."
+      },
+      {
+        "id": "edge-flush-cards",
+        "name": "Cards flush against the scroller edge",
+        "category": "quality",
+        "description": "Cards inside a horizontal scroller or tab panel sit flush against the container edge at rest while keeping a gutter on the other side, so their edges and rounded corners get cut off. Usually the panel is sized wider than its clip box. Keep a consistent inset on both sides."
+      },
+      {
+        "id": "text-occlusion",
+        "name": "Text occluded by an overlapping element",
+        "category": "quality",
+        "description": "Text is painted under an opaque element or a second text run, so part of it cannot be read. A decorative box, a stacked layer, or an inline element with leaked padding lands on the words instead of beside them. Give overlapping layers room, or move the text out from under the layer above it."
+      },
+      {
+        "id": "first-viewport-column-overflow",
+        "name": "One column stretches the first viewport",
+        "category": "quality",
+        "description": "A multi-column opening section lets one column run far past the fold while its sibling fits in a single viewport, so the short column floats in dead space and the fold falls deep inside one section. Balance the columns, cap the tall one, or let the long content flow below the opening row."
+      },
+      {
+        "id": "gray-on-color",
+        "name": "Gray text on colored background",
+        "category": "quality",
+        "description": "Gray text looks washed out on colored backgrounds. Use a darker shade of the background color instead, or white/near-white for contrast."
+      },
+      {
+        "id": "low-contrast",
+        "name": "Low contrast text",
+        "category": "quality",
+        "description": "Text does not meet WCAG AA contrast requirements (4.5:1 for body, 3:1 for large text). Increase the contrast between text and background."
+      },
+      {
+        "id": "line-length",
+        "name": "Line length too long",
+        "category": "quality",
+        "description": "Text lines wider than ~80 characters are hard to read. The eye loses its place tracking back to the start of the next line, so it is measured on the lines that rendered and charged when more than one of them runs long. Add a max-width (65ch to 75ch) to text containers."
+      },
+      {
+        "id": "cramped-padding",
+        "name": "Cramped padding",
+        "category": "quality",
+        "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the space between the rendered text and the border box is too small for the font size, and (2) a wrapper whose children's text lands flush against a visible boundary (border, outline, or non-transparent background) with nothing to inset it. Add at least 8px (ideally 12–16px) of space inside bordered, outlined, or colored containers."
+      },
+      {
+        "id": "body-text-viewport-edge",
+        "name": "Body text touching viewport edge",
+        "category": "quality",
+        "description": "Body paragraphs render flush against the left or right viewport edge with no container providing horizontal padding: closer than 16px, or 12px on viewports 480px wide or narrower. Wrap content in a container with at least 16px (ideally 24-32px) of horizontal padding, or apply max-width with mx-auto. Body text that runs past the viewport edge is reported once per page as overflow, naming the widest element: constrain that element's width instead of adding padding."
+      },
+      {
+        "id": "tight-leading",
+        "name": "Tight line height",
+        "category": "quality",
+        "description": "Line height below 1.3x the font size makes multi-line text hard to read. Use 1.5 to 1.7 for body text so lines have room to breathe."
+      },
+      {
+        "id": "skipped-heading",
+        "name": "Skipped heading level",
+        "category": "quality",
+        "description": "Heading levels should not skip (e.g. h1 then h3 with no h2). Screen readers use heading hierarchy for navigation. Skipping levels breaks the document outline."
+      },
+      {
+        "id": "heading-rhythm",
+        "name": "Heading crowded against the previous block",
+        "category": "quality",
+        "description": "A heading binds to the content it introduces, so the rendered space above it should exceed the space below it. When headings across a page sit as close or closer to the block above than to their own content, every section reads as if it captions the previous one. Open up the space above each heading."
+      },
+      {
+        "id": "justified-text",
+        "name": "Justified text",
+        "category": "quality",
+        "description": "In a column this narrow, justifying without hyphenation stretches the word spaces until vertical rivers of white run down the block. Use text-align: left, widen the measure, or enable hyphens: auto if you must justify. Scripts that justify on a character grid or by elongating glyphs, such as CJK, Thai and Arabic, are not affected and are not reported."
+      },
+      {
+        "id": "tiny-text",
+        "name": "Tiny body text",
+        "category": "quality",
+        "description": "Body text below 12px is hard to read, especially on high-DPI screens. Use at least 14px for body content, 16px is ideal."
+      },
+      {
+        "id": "undersized-ui-text",
+        "name": "Undersized functional text",
+        "category": "quality",
+        "description": "Interactive and content-bearing UI text (links, buttons, nav items, labels, table cells, meta rows, timecodes) below 11px is a legibility failure, not a style choice. WCAG sets no absolute pixel floor, but functional text under 11px is a defensible quality bar: it fails on high-DPI and small viewports and it degrades tap and read targets. The 11px floor holds even inside a footer; only non-interactive legal smallprint gets the softer 10px floor. Being ON the DESIGN.md size ramp does not exempt a value here: adding 8px to the ramp launders the token but not the legibility problem, and that is exactly the escape hatch this rule closes. Exempts sup/sub, visually-hidden (sr-only) text, and code/terminal contexts. Decorative letterspaced micro-labels are still functional and stay in scope."
+      },
+      {
+        "id": "all-caps-body",
+        "name": "All-caps body text",
+        "category": "quality",
+        "description": "Long passages in uppercase are hard to read. We recognize words by shape (ascenders and descenders), which all-caps removes. Reserve uppercase for short labels and headings. Only a run that reads as a sentence counts: 80 characters or more of an element's own text. Buttons, nav items, kickers and eyebrows set in caps are a convention and stay silent."
+      },
+      {
+        "id": "wide-tracking",
+        "name": "Wide letter spacing on body text",
+        "category": "quality",
+        "description": "Letter spacing above 0.05em on body text disrupts natural character groupings and slows reading. Reserve wide tracking for short uppercase labels only."
+      },
+      {
+        "id": "text-overflow",
+        "name": "Content overflowing its container",
+        "category": "quality",
+        "description": "Content renders wider than its container and the spill does harm: a clipping ancestor cuts it off, it runs into another box, or it reaches the viewport edge. Let text wrap, constrain widths, or give the region a deliberate scroll affordance."
+      },
+      {
+        "id": "repeated-container-text",
+        "name": "Same text repeated inside one container",
+        "category": "quality",
+        "description": "The same literal text rendered three or more times in structurally different spots inside a single card or panel is redundant messaging — usually a status or label wired into every slot of a template. Say it once, in the slot where it matters most."
+      },
+      {
+        "id": "clipped-overflow-container",
+        "name": "Positioned child clipped by overflow container",
+        "category": "quality",
+        "description": "A clipping container (overflow hidden or clip) wrapping an absolutely-positioned child cuts off tooltips, menus, and popovers that need to escape. Let the overflow be visible, or move the positioned layer out of the clip."
+      },
+      {
+        "id": "design-system-font",
+        "name": "Font outside DESIGN.md",
+        "category": "quality",
+        "description": "A font is used that is not declared in DESIGN.md typography. Use the documented type system or update DESIGN.md if this is an intentional brand addition."
+      },
+      {
+        "id": "design-system-color",
+        "name": "Color outside DESIGN.md",
+        "category": "quality",
+        "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift."
+      },
+      {
+        "id": "design-system-radius",
+        "name": "Radius outside DESIGN.md",
+        "category": "quality",
+        "description": "A border-radius value is outside the DESIGN.md rounded scale. Use a documented radius token or update the design system if the new shape is intentional."
+      },
+      {
+        "id": "design-system-font-size",
+        "name": "Font size outside DESIGN.md",
+        "category": "quality",
+        "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional."
+      },
+      {
+        "id": "gpt-thin-border-wide-shadow",
+        "name": "Hairline border with wide shadow",
+        "category": "slop",
+        "description": "Every card of this row wears a hairline border paired with a wide, diffuse shadow, which is a recurring generated-UI signature. One floating panel earns both; a whole row wearing them reads as a default nobody chose. Across the row, commit to one: a defined edge or a soft elevation."
+      },
+      {
+        "id": "repeating-stripes-gradient",
+        "name": "Repeating-gradient stripes",
+        "category": "slop",
+        "description": "Repeating-gradient stripes used as surface decoration are a recurring generated-UI signature. Reach for a deliberate texture or leave the surface plain."
+      },
+      {
+        "id": "codex-grid-background",
+        "name": "Decorative grid-line background",
+        "category": "slop",
+        "description": "A decorative grid or line-field background drawn with hairline linear-gradient layers tiled by a fixed pixel cell is a recurring generated-UI signature. Reserve grid overlays for actual canvas, map, blueprint, or measurement surfaces; elsewhere use product structure or a plain surface."
+      },
+      {
+        "id": "theater-slop-phrase",
+        "name": "Theater framing copy",
+        "category": "slop",
+        "description": "Dismissing something as \"theater\" is a recurring generated-copy tic. Say plainly what the thing does or does not do."
+      }
+    ],
+    "interpretation": "Original report retained. Contextual style heuristics do not certify or veto TYY achievement."
+  },
+  "frontend_slides": {
+    "workflow": "modules/frontend-slides/WORKFLOW.md",
+    "presets": 12,
+    "detailed_systems": 34,
+    "controller": "assets/deck-runtime.js",
+    "authoring": "scripts/artifact.mjs",
+    "pptx_extraction": "scripts/extract_pptx.py",
+    "upstream_helpers": [
+      "modules/frontend-slides/scripts/extract-pptx.py",
+      "modules/frontend-slides/scripts/export-pdf.sh",
+      "modules/frontend-slides/scripts/deploy.sh"
+    ],
+    "outputs": [
+      "HTML presentation",
+      "rendered PNG",
+      "print PDF",
+      "screenshot PDF through upstream helper"
+    ],
+    "limits": [
+      "No native editable-PPTX generator in this module",
+      "AI authors actual subject composition",
+      "Rendered/source review still required"
+    ]
+  },
+  "integrations": {
+    "browser_extensions": [
+      "integrations/browser-extension",
+      "integrations/browser-extension-firefox"
+    ],
+    "host_installation": "scripts/install.py",
+    "hooks": "opt-in via engine; not automatically enabled",
+    "provider_plugin_and_rust_source": "third-party/impeccable-source.zip",
+    "resource_manifest": "third-party/RESOURCES.json",
+    "browser_extension_availability": "Complete per-browser companions; logical paths must be resolved from local/offline installation or verified external cache."
+  },
+  "examples": [
+    {
+      "name": "Gardens coordinated slide",
+      "source": "examples/gardens/ASSEMBLY.md",
+      "preview": "examples/gardens/preview.jpg",
+      "artifact": "examples/gardens/proposal.pptx",
+      "assets": "examples/gardens/assets/",
+      "kind": "Unchanged rc.3 internal reference-led Codex run; additional presentation tools used; not portability or causal skill-effect evidence",
+      "resource_group": "gardens-construction",
+      "availability": "Preview/map/prompt local; artifact and artwork source in pinned optional companion/offline bundle."
+    },
+    {
+      "name": "LoopLunch rc.17b",
+      "preview": "examples/looplunch.jpg",
+      "kind": "Owner-selected preview of the original complete-page image output; strong standalone visual reference, original paired comparison invalid. Two generation calls including an internal recovery; not a one-call success.",
+      "purpose": "Participation, distinct actions, service loop, supporting symbols and business decision."
+    },
+    {
+      "name": "Haze explanation",
+      "preview": "examples/haze.jpg",
+      "kind": "Owner-selected historical visual study; map/readings/health content not validated for reuse; production route unverified.",
+      "purpose": "Source, movement and consequence within an atmospheric world, linked with lived actions and calm reading fields."
+    },
+    {
+      "name": "NLB service proposal",
+      "preview": "examples/nlb-proposal.jpg",
+      "kind": "Owner-selected concept-proposal visual study; mock-ups/catalogue details not verified service evidence; route unverified.",
+      "purpose": "Reader experience, complementary regions, supporting imagery and a decision destination."
+    }
+  ],
+  "dependencies": {
+    "guidance": "Readable text/files",
+    "engine": "Verified platform binary; Python launcher",
+    "rendering": "Node 18+, Playwright, Chromium",
+    "pptx_extraction": "Python 3.10+, python-pptx",
+    "image_generation": "Host-native tool or separately authorized API",
+    "native_apps": "Appropriate platform tools",
+    "publication": "Explicit authorization and configured account",
+    "pptx_creation": "Bundled optional production_pptx.py: Python 3.10+, python-pptx 1.x and dependencies; implementation untested. Another capable host writer is valid.",
+    "production_record": "Python 3.10+ standard library; actual local file access; no model/image API calls",
+    "html_record_writer": "Python 3.10+ standard library; real bound assets; separate browser rendering"
+  },
+  "retained": [
+    "TYY eleven-lens calibration",
+    "Image/native/mixed format choice",
+    "Source/asset honesty",
+    "Existing-artifact conversion as conditional branch",
+    "All 24 specialist action workflows",
+    "All 59 detector definitions",
+    "Full upstream engine verb implementation",
+    "12/34 slide style systems",
+    "Native platform guidance",
+    "Live variants and tuning",
+    "Context/design/critique persistence",
+    "Complete original source and licences"
+  ],
+  "adapted_or_omitted": [
+    {
+      "item": "Universal aesthetic bans",
+      "action": "Replaced with contextual TYY reasoning; raw detector evidence remains available",
+      "reason": "Useful illustrations, colours, type or objects must not be suppressed categorically"
+    },
+    {
+      "item": "Comp-first/image-first defaults and fixed aspect across media",
+      "action": "Conditional method choice; strict fidelity branch retained",
+      "reason": "Canvas does not choose the creative interpretation"
+    },
+    {
+      "item": "Fixed interview/preview/delegation ceremonies",
+      "action": "Use when material and authorized",
+      "reason": "Avoid unnecessary friction and context load"
+    },
+    {
+      "item": "Upstream self-update over integrated package",
+      "action": "Route to Le_SensVisual installer; original source retained",
+      "reason": "Stock update would remove the TYY integration"
+    },
+    {
+      "item": "Generated duplicate provider skills in active runtime",
+      "action": "Kept once as routed modules; full source archive preserves provider code",
+      "reason": "One discoverable product entry and no duplicated prompt walls"
+    }
+  ],
+  "licence": {
+    "new_work": "MIT, Copyright (c) 2026 TH_Ng; third-party terms remain applicable",
+    "third_party": "See third-party licences and PROVENANCE.json",
+    "publication": "Not performed"
+  },
+  "verification": "rc.23 refines the existing Haze worked decision to connect source, movement and consequence within its visual world; all four images and specialist capabilities retained. Public identity, packaging and notices updated. No rc.23 model/output test or claim of improved comparative performance.",
+  "execution_layer": {
+    "guide": "references/execution.md",
+    "coordinator": "scripts/production.py",
+    "writers": [
+      "scripts/production_pptx.py",
+      "scripts/production_html.py"
+    ],
+    "optional_dependencies": "scripts/requirements-production.txt",
+    "operations": [
+      "next",
+      "bind",
+      "ingest",
+      "save-image",
+      "writer-input",
+      "assemble",
+      "inspect",
+      "review-template"
+    ],
+    "contract": "One resolved TYY design, regional contributions, ordered page objects, actual asset files/hashes, requested output variants, file-bound delivery receipts and declared visual review; explicit central-intent and missed-material-opportunity attestation; partial lens ratings require remaining audience cost",
+    "managed_object_types": [
+      "text",
+      "image",
+      "shape",
+      "polygon",
+      "line",
+      "table",
+      "chart"
+    ],
+    "format_scope": "Bundled writers for native PPTX and fixed-canvas HTML/SVG; other capable host writers/formats remain valid. No format default.",
+    "status": "Code unchanged from rc.13, whose CodeRabbit source review raised 0 issues. No new CodeRabbit review or runtime test is claimed for rc.14 guidance.",
+    "limits": "Cannot grant host tool access, invoke host-private image tools, force model compliance, independently verify declared visual review or certify TYY quality. Managed gates detect known omissions, not unknown opportunities. Complex unsupported features need a capable writer.",
+    "image_handoff": {
+      "python": "scripts/production.py: save_image_result, ingest_image_result; CLI save-image/ingest",
+      "optional_js_retainer": "scripts/retain_image_result.mjs: retainImageResult",
+      "input": "Full returned bytes/path/data URL, image_url, b64_json or image content block; explicit selection for multiple payloads",
+      "scope": "Assembled work can use the host writer's consumed asset/placement structure or a checked production record. Standalone saver and binder retained. Whole-image generation remains direct.",
+      "limits": "Actual accessible payload/file required; no URL fetching, attachment export, image generation or visual certification. Untested."
+    },
+    "host_writer_input": {
+      "python": "scripts/production.py: writer_input(plan_file, output_id)",
+      "cli": "python scripts/production.py writer-input job/production.json --output deck",
+      "behavior": "Read-only checked selected pages, regional contributions, actual referenced asset paths/hashes and design; rejects unresolved/changed referenced assets before host assembly.",
+      "limits": "No image/model invocation, automatic writer execution, compliance enforcement or TYY certification. Cannot catch undeclared visual opportunities."
+    }
+  },
+  "coordinated_production": {
+    "guide": "references/production.md",
+    "principle": "One TYY design coordinates tools per contribution through asset creation, assembly, refinement and delivery.",
+    "canvas": "The requested canvas brings the contributing artwork and information together through coordinated tools.",
+    "examples": [
+      "TYY Slide 4 regional composition",
+      "TYY Slide 5 illustrated stages and system architecture"
+    ],
+    "limits": "Host must expose suitable tools and usable returned assets; no universal image-to-editable recovery or guaranteed model compliance.",
+    "native_slide_recipe": "references/presentations.md",
+    "attachment_resolution": "Portable TXT embeds relative resources under RESOURCE: path headings; actual image/tool files require accompanying resources/host support.",
+    "entry": "New visual PPTX executes the illustrated plan through actual artwork tool calls, real assets, assembly and actual export review. One consumed writer map or checked production.json; user need not separately request illustrations or each stage.",
+    "host_boundary": "Establish readable guidance and actual image/sourcing, transfer, authoring and vision capabilities in the current task; do not infer them from Codex or a subscription.",
+    "handoff_checks": [
+      "Receiver accepts actual supported input",
+      "Required contribution visibly integrated in delivered canvas",
+      "Intended TYY benefit and harmony achieved"
+    ],
+    "method_selection": "Resolve concrete visible subjects/actions, relationships and audience benefits in the opening and useful supporting content before selecting tools. Choose generation or assembly for that complete design and actual operations; renderer availability alone does not select assembly. Both methods retain accurate copy and supporting expressions.",
+    "dependencies": "Resolve destination dimensions/aspect, subjects/actions, copy/icon fields and layers before requesting assembled artwork. Carry those decisions into the actual call; inspect returned files/framing, place real assets and verify export separately from TYY achievement.",
+    "decision_examples": "references/meaning.md and examples/INDEX.md: owner-selected Gardens, LoopLunch, haze and NLB; visible functions, audience benefits and production transfer. Read relevant example, not all four; keep historical facts, layout, style and tool choices specific to each source."
+  },
+  "primary_distribution": "Manifest-based native skill; all specialist instructions and helpers retained. Optional software/source/construction resources are pinned in third-party/RESOURCES.json and use a separate cache.",
+  "detector_interpretation": "The included rule descriptions are upstream diagnostic heuristics, not instructions to remove useful TYY design. Verify technical/style findings in context.",
+  "resource_loading": {
+    "manifest": "third-party/RESOURCES.json",
+    "resolver": "scripts/resources.py",
+    "delivery_manifest": "DELIVERY.json",
+    "cache": "Separate platform cache; VISUASENSE_CACHE override must remain outside the skill",
+    "network": "No implicit downloads. Explicit engine setup uses real pinned ENGINE.json URLs. Other companions import locally; no invented publication URLs.",
+    "coverage": "Every rc.15 resource is either retained locally or preserved byte-for-byte in a complete versioned companion."
+  }
+}

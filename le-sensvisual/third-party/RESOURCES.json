@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "version": "0.4.0-rc.23",
+  "resourceSet": "pinned-rc15-resources-v1",
+  "scope": "Optional software, upstream source and full construction resources. All TYY and specialist guidance remains in native delivery. No automatic downloads.",
+  "engineManifest": "third-party/ENGINE.json",
+  "groups": {
+    "upstream-source": {
+      "archiveName": "Le_SensVisual-v0.4.0-rc.23-upstream-source.zip",
+      "description": "Unchanged pinned upstream source archives for provenance, source inspection and unsupported-platform builds.",
+      "members": {
+        "third-party/frontend-slides-source.zip": {
+          "bytes": 1234781,
+          "sha256": "09c1fad0ae0cab76460712d9031a6e37055f4a416aebe775bbe5599348ee6da0"
+        },
+        "third-party/impeccable-source.zip": {
+          "bytes": 28044832,
+          "sha256": "b50736ea015eac3575ed56bd54f3232083389a9020e19f857af4e68023f65ef1"
+        }
+      }
+    },
+    "engine-offline": {
+      "archiveName": "Le_SensVisual-v0.4.0-rc.23-engine-offline.zip",
+      "description": "Pinned Windows x64 engine for explicit offline engine setup; other platforms use ENGINE.json downloads.",
+      "members": {
+        "runtime/engine/windows-x64/impeccable.exe": {
+          "bytes": 19672464,
+          "sha256": "981324ea15cc3c107d46b8133b5be77f639dbcd22e671f1eb7d8c69136e9693b"
+        }
+      }
+    },
+    "extension-chromium": {
+      "archiveName": "Le_SensVisual-v0.4.0-rc.23-extension-chromium.zip",
+      "description": "Complete optional Chromium browser extension, installed separately with user authorization.",
+      "members": {
+        "integrations/browser-extension/background/service-worker.js": {
+          "bytes": 15665,
+          "sha256": "56f30282861cb971af339de0f80ae97780af4d1b7e67e72cba427ce3ecdc0705"
+        },
+        "integrations/browser-extension/content/content-script.js": {
+          "bytes": 11986,
+          "sha256": "df365438ee8e4effe7ede8e38c4f02d1016d1b178499aa9c66d4d9c4a7083b5f"
+        },
+        "integrations/browser-extension/detector/antipatterns.json": {
+          "bytes": 22407,
+          "sha256": "da7b1597b319b6e042297505b83854152c5669761ad9746a0ac1c0edcc540e52"
+        },
+        "integrations/browser-extension/detector/core.js": {
+          "bytes": 97982,
+          "sha256": "af91ea7ead9ede081d327db52982c696fe42a7f7024320cbdd8d64352ca29214"
+        },
+        "integrations/browser-extension/detector/core_bg.wasm": {
+          "bytes": 2031071,
+          "sha256": "1c6602662a21ec052a55d89c54cb7ed69af7aae4cbb862e6c97122143d08b421"
+        },
+        "integrations/browser-extension/detector/overlay.js": {
+          "bytes": 25292,
+          "sha256": "c2711c80495f362de64b53affe64f34641726e01180d6516936c932eca8ccd41"
+        },
+        "integrations/browser-extension/detector/snapshot.js": {
+          "bytes": 37929,
+          "sha256": "244fd11b5a029d56afeddac7bd0c1de56d148e689b27f683bc2586aa6715dee8"
+        },
+        "integrations/browser-extension/devtools/devtools.html": {
+          "bytes": 121,
+          "sha256": "91ac07c0a69d65d9d44565a4cf9d8436e94daf740b146db34ace1f8dac5b234a"
+        },
+        "integrations/browser-extension/devtools/devtools.js": {
+          "bytes": 1905,
+          "sha256": "f8e9b8b28377553f5662e85dad655192cb3e7033c57804f54db9fe678ef5531f"
+        },
+        "integrations/browser-extension/devtools/panel.css": {
+          "bytes": 14658,
+          "sha256": "bacfc5cfd82f04d0959c12d150fdf2f27b41cdd650982b1dea515bb0229f1001"
+        },
+        "integrations/browser-extension/devtools/panel.html": {
+          "bytes": 3858,
+          "sha256": "70595af48604a9e8f948ec9468167ece089eee29d49c585aa4c30e0eb284f759"
+        },
+        "integrations/browser-extension/devtools/panel.js": {
+          "bytes": 18202,
+          "sha256": "8c9c2a2e53d4ae46d6b5fafd6c0616b042e3e21069f7cbe12855b96ad4f05fd5"
+        },
+        "integrations/browser-extension/devtools/sidebar.css": {
+          "bytes": 2045,
+          "sha256": "43b98a027a1740a0a0088215379036f0d0e8d919132f87e400e61cf71c6a78a4"
+        },
+        "integrations/browser-extension/devtools/sidebar.html": {
+          "bytes": 360,
+          "sha256": "e9813f4f191311432fa327827a5caf694827f84c2768208c8e6bb50dcd901a54"
+        },
+        "integrations/browser-extension/devtools/sidebar.js": {
+          "bytes": 3240,
+          "sha256": "9c29c75344324535de5a6ef4aaa787d2e13670ff5d2334e3ad27659ccfbbc9cf"
+        },
+        "integrations/browser-extension/icons/icon-128.png": {
+          "bytes": 1837,
+          "sha256": "1939b3a61b016a0f49f90a7b91319cbe95b339be1a46a4a44404edb7b43a3d91"
+        },
+        "integrations/browser-extension/icons/icon-16.png": {
+          "bytes": 295,
+          "sha256": "4efa5b08004bc6cf45e840aef2410e17f3289719e8b9d1fbf443268b91ee2d1a"
+        },
+        "integrations/browser-extension/icons/icon-32.png": {
+          "bytes": 522,
+          "sha256": "2c47851bd75e81ae0319b8d726291bc4c5415d785f6a0f6081626cfa4e49480a"
+        },
+        "integrations/browser-extension/icons/icon-48.png": {
+          "bytes": 716,
+          "sha256": "9612630f0d047c1c237caa04deb68f7a504572b23a4d0812095c1db7d1baabaa"
+        },
+        "integrations/browser-extension/icons/icon.svg": {
+          "bytes": 337,
+          "sha256": "2ecfd082d11a3bead162770c5e30b82b36f096a7a06825a1e7e58b0d9501cb02"
+        },
+        "integrations/browser-extension/icons/promo-small.png": {
+          "bytes": 30235,
+          "sha256": "fe18b4065238d6e59c0b106b03a246482ef01ab31665e90c53b7ede2e258c0db"
+        },
+        "integrations/browser-extension/LICENSE": {
+          "bytes": 10957,
+          "sha256": "fc0673369dae07c045c46869d3d4c9113678c77fcc7d3b4e3a39ac074cfa68b6"
+        },
+        "integrations/browser-extension/manifest.json": {
+          "bytes": 978,
+          "sha256": "1c7cdea449bb169aaa74b86c40a2f9bfb5fbf63f9c87a0eee043342168fe61b6"
+        },
+        "integrations/browser-extension/offscreen/offscreen.html": {
+          "bytes": 474,
+          "sha256": "86e21373daad4934a57e8786a95c08697bed435eacbc74aabae0691196d9f3ba"
+        },
+        "integrations/browser-extension/popup/popup.css": {
+          "bytes": 3946,
+          "sha256": "5ff49a22165608bcbc9b9e4224b2bca7ea5b93b046e1d38384883b6bf2ffa17f"
+        },
+        "integrations/browser-extension/popup/popup.html": {
+          "bytes": 1096,
+          "sha256": "8b46a40c2959438ea44b4792b0312b799a13f11626f6388428a9249e71ce90ad"
+        },
+        "integrations/browser-extension/popup/popup.js": {
+          "bytes": 3230,
+          "sha256": "952c467c7a9df535fe8f5032c2ad1913290981d35ac8ece402d04a88d416038f"
+        },
+        "integrations/browser-extension/shared/kinpaku.css": {
+          "bytes": 7901,
+          "sha256": "05435746f95fee02c2a11b05b96e095df2a666673625e058e8126806db2b93e1"
+        },
+        "integrations/browser-extension/STORE_LISTING.md": {
+          "bytes": 5396,
+          "sha256": "210cc1fe513a72b7d00c41273ddad0d0068aff2962d038098afda022d8cf307b"
+        }
+      }
+    },
+    "extension-firefox": {
+      "archiveName": "Le_SensVisual-v0.4.0-rc.23-extension-firefox.zip",
+      "description": "Complete optional Firefox browser extension, installed separately with user authorization.",
+      "members": {
+        "integrations/browser-extension-firefox/background/service-worker.js": {
+          "bytes": 15665,
+          "sha256": "56f30282861cb971af339de0f80ae97780af4d1b7e67e72cba427ce3ecdc0705"
+        },
+        "integrations/browser-extension-firefox/content/content-script.js": {
+          "bytes": 11986,
+          "sha256": "df365438ee8e4effe7ede8e38c4f02d1016d1b178499aa9c66d4d9c4a7083b5f"
+        },
+        "integrations/browser-extension-firefox/detector/antipatterns.json": {
+          "bytes": 22407,
+          "sha256": "da7b1597b319b6e042297505b83854152c5669761ad9746a0ac1c0edcc540e52"
+        },
+        "integrations/browser-extension-firefox/detector/core.js": {
+          "bytes": 97982,
+          "sha256": "af91ea7ead9ede081d327db52982c696fe42a7f7024320cbdd8d64352ca29214"
+        },
+        "integrations/browser-extension-firefox/detector/core_bg.wasm": {
+          "bytes": 2031071,
+          "sha256": "1c6602662a21ec052a55d89c54cb7ed69af7aae4cbb862e6c97122143d08b421"
+        },
+        "integrations/browser-extension-firefox/detector/overlay.js": {
+          "bytes": 25292,
+          "sha256": "c2711c80495f362de64b53affe64f34641726e01180d6516936c932eca8ccd41"
+        },
+        "integrations/browser-extension-firefox/detector/snapshot.js": {
+          "bytes": 37929,
+          "sha256": "244fd11b5a029d56afeddac7bd0c1de56d148e689b27f683bc2586aa6715dee8"
+        },
+        "integrations/browser-extension-firefox/devtools/devtools.html": {
+          "bytes": 121,
+          "sha256": "91ac07c0a69d65d9d44565a4cf9d8436e94daf740b146db34ace1f8dac5b234a"
+        },
+        "integrations/browser-extension-firefox/devtools/devtools.js": {
+          "bytes": 1905,
+          "sha256": "f8e9b8b28377553f5662e85dad655192cb3e7033c57804f54db9fe678ef5531f"
+        },
+        "integrations/browser-extension-firefox/devtools/panel.css": {
+          "bytes": 14658,
+          "sha256": "bacfc5cfd82f04d0959c12d150fdf2f27b41cdd650982b1dea515bb0229f1001"
+        },
+        "integrations/browser-extension-firefox/devtools/panel.html": {
+          "bytes": 3858,
+          "sha256": "70595af48604a9e8f948ec9468167ece089eee29d49c585aa4c30e0eb284f759"
+        },
+        "integrations/browser-extension-firefox/devtools/panel.js": {
+          "bytes": 18202,
+          "sha256": "8c9c2a2e53d4ae46d6b5fafd6c0616b042e3e21069f7cbe12855b96ad4f05fd5"
+        },
+        "integrations/browser-extension-firefox/devtools/sidebar.css": {
+          "bytes": 2045,
+          "sha256": "43b98a027a1740a0a0088215379036f0d0e8d919132f87e400e61cf71c6a78a4"
+        },
+        "integrations/browser-extension-firefox/devtools/sidebar.html": {
+          "bytes": 360,
+          "sha256": "e9813f4f191311432fa327827a5caf694827f84c2768208c8e6bb50dcd901a54"
+        },
+        "integrations/browser-extension-firefox/devtools/sidebar.js": {
+          "bytes": 3240,
+          "sha256": "9c29c75344324535de5a6ef4aaa787d2e13670ff5d2334e3ad27659ccfbbc9cf"
+        },
+        "integrations/browser-extension-firefox/icons/icon-128.png": {
+          "bytes": 1837,
+          "sha256": "1939b3a61b016a0f49f90a7b91319cbe95b339be1a46a4a44404edb7b43a3d91"
+        },
+        "integrations/browser-extension-firefox/icons/icon-16.png": {
+          "bytes": 295,
+          "sha256": "4efa5b08004bc6cf45e840aef2410e17f3289719e8b9d1fbf443268b91ee2d1a"
+        },
+        "integrations/browser-extension-firefox/icons/icon-32.png": {
+          "bytes": 522,
+          "sha256": "2c47851bd75e81ae0319b8d726291bc4c5415d785f6a0f6081626cfa4e49480a"
+        },
+        "integrations/browser-extension-firefox/icons/icon-48.png": {
+          "bytes": 716,
+          "sha256": "9612630f0d047c1c237caa04deb68f7a504572b23a4d0812095c1db7d1baabaa"
+        },
+        "integrations/browser-extension-firefox/icons/icon.svg": {
+          "bytes": 337,
+          "sha256": "2ecfd082d11a3bead162770c5e30b82b36f096a7a06825a1e7e58b0d9501cb02"
+        },
+        "integrations/browser-extension-firefox/icons/promo-small.png": {
+          "bytes": 30235,
+          "sha256": "fe18b4065238d6e59c0b106b03a246482ef01ab31665e90c53b7ede2e258c0db"
+        },
+        "integrations/browser-extension-firefox/LICENSE": {
+          "bytes": 10957,
+          "sha256": "fc0673369dae07c045c46869d3d4c9113678c77fcc7d3b4e3a39ac074cfa68b6"
+        },
+        "integrations/browser-extension-firefox/manifest.json": {
+          "bytes": 1222,
+          "sha256": "d188dffeec0068295789216056267c815cbf304be61095b45b7f0d68a846d901"
+        },
+        "integrations/browser-extension-firefox/offscreen/offscreen.html": {
+          "bytes": 474,
+          "sha256": "86e21373daad4934a57e8786a95c08697bed435eacbc74aabae0691196d9f3ba"
+        },
+        "integrations/browser-extension-firefox/popup/popup.css": {
+          "bytes": 3946,
+          "sha256": "5ff49a22165608bcbc9b9e4224b2bca7ea5b93b046e1d38384883b6bf2ffa17f"
+        },
+        "integrations/browser-extension-firefox/popup/popup.html": {
+          "bytes": 1096,
+          "sha256": "8b46a40c2959438ea44b4792b0312b799a13f11626f6388428a9249e71ce90ad"
+        },
+        "integrations/browser-extension-firefox/popup/popup.js": {
+          "bytes": 3230,
+          "sha256": "952c467c7a9df535fe8f5032c2ad1913290981d35ac8ece402d04a88d416038f"
+        },
+        "integrations/browser-extension-firefox/shared/kinpaku.css": {
+          "bytes": 7901,
+          "sha256": "05435746f95fee02c2a11b05b96e095df2a666673625e058e8126806db2b93e1"
+        },
+        "integrations/browser-extension-firefox/STORE_LISTING.md": {
+          "bytes": 5396,
+          "sha256": "210cc1fe513a72b7d00c41273ddad0d0068aff2962d038098afda022d8cf307b"
+        }
+      }
+    },
+    "gardens-construction": {
+      "archiveName": "Le_SensVisual-v0.4.0-rc.23-gardens-construction.zip",
+      "description": "Full Gardens artwork sheet, individual crops and editable PPTX construction study; preview/map stay in the main skill.",
+      "members": {
+        "examples/gardens/assets/anchor.png": {
+          "bytes": 688806,
+          "sha256": "d8f441a90fa23b0d902c97a25bb2bfbee55d4878d66d9981465885cc11ea3205"
+        },
+        "examples/gardens/assets/card-family.png": {
+          "bytes": 207465,
+          "sha256": "0aeefb5d31c474dbd30a7499c0dc84b932d253bf80a0f0943099080851a305fe"
+        },
+        "examples/gardens/assets/card-older.png": {
+          "bytes": 213881,
+          "sha256": "0505fb14bff9d19c8bc5df50d9a89f452c6251540ae5f2d055fdf0665f2cce3a"
+        },
+        "examples/gardens/assets/card-overseas.png": {
+          "bytes": 245589,
+          "sha256": "e8399ac2cc394130ed38d3daed167299e2b6ad85bb633f364a788a74cbc431ad"
+        },
+        "examples/gardens/assets/card-staff.png": {
+          "bytes": 259764,
+          "sha256": "a3b6dd1045f4c3a1d0c73f830d443ad045825c4d9772bab44abbb860af98d1d9"
+        },
+        "examples/gardens/assets/generated-art-sheet.png": {
+          "bytes": 3147554,
+          "sha256": "c6fee692b9a2d2bb74f0e9072f7b834b2876ba774ac51d8cdaa18a001b6e9d08"
+        },
+        "examples/gardens/assets/header.png": {
+          "bytes": 1088759,
+          "sha256": "9420c7ae96733df17ad4ce58427c7ff702d68a6cc9f51415d74e11311b112fb4"
+        },
+        "examples/gardens/assets/problem-map.png": {
+          "bytes": 56521,
+          "sha256": "1433758d1ef240f31f938305ef68c624bce659ee961985d6484b06f9ff659f6e"
+        },
+        "examples/gardens/assets/problem-questions.png": {
+          "bytes": 32917,
+          "sha256": "211aa761ea132052ec9801b41e0b8891cfa6662c953b2549225243267d746633"
+        },
+        "examples/gardens/assets/problem-walk.png": {
+          "bytes": 48375,
+          "sha256": "f7616f9b7ea18bce005906de2e5b6dcdb0d0473e64f4663132d2ce9719d333ab"
+        },
+        "examples/gardens/assets/problem-weather.png": {
+          "bytes": 36952,
+          "sha256": "722178784db27d2e4eb71d16394318d119690896d1923e47735891a7bb8fde05"
+        },
+        "examples/gardens/proposal.pptx": {
+          "bytes": 2907370,
+          "sha256": "3e2e526e7907378f304a103937ebaa83d8370c6c017ca5a08fff0335630063e0"
+        }
+      }
+    }
+  }
+}

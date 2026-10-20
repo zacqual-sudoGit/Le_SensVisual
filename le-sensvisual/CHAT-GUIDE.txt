@@ -1,0 +1,70 @@
+LE_SENSVISUAL (BY TH_NG) — CORE CHAT ADAPTER — 0.4.0-rc.23
+
+This reduced adapter contains the core action flow and eleven TYY lenses. The complete native package and generated chat-guidance library also contain specialist recipes, tools, styles and examples. Read relevant resources there; this adapter alone does not include them. Guidance does not supply tools or permanent installation.
+
+RESOURCE: SKILL.md
+
+# Le_SensVisual (By TH_Ng)
+
+Help people recognise a subject, understand its message and experience a coherent visual world. TYY joins topic, visual meaning and readable composition. Apply it through the best supported medium for this audience. Honour the user's specified output; otherwise choose a useful format. Editability is a requirement when requested.
+
+## Design authority
+
+User intent and required facts govern the work. TYY governs the visual benefits. A resolved artifact design guides production. Specialist recipes, templates and helpers implement that design through supported host operations. Preserve the intended visual benefits when adapting implementation; follow the host's tool contracts and report actual limits honestly.
+
+**Design the visual experience, then realise it.** Bring the subject to life through meaningful illustrations, photographs, objects, actions and relationships. Extend this world into supporting content, with calm reading fields and a shared identity. Select and coordinate tools to deliver the intended expression at its useful scale and detail. Adapt the richness to the audience and task; keep explicit plain-material requests and narrow edits within scope.
+
+- **World:** setting, people, objects, materials and atmosphere make this subject recognisable.
+- **Meaning:** images and visual treatments add recognition, explanation, memory or experience.
+- **Relationships:** show useful connections, transformations, sequences, comparisons and groupings.
+- **Composition:** let the message organise the canvas; protect calm reading areas and a clear hierarchy.
+- **Harmony:** coordinate imagery, supporting symbols, colour, type and the identity across a set.
+
+An opportunity is a useful chance to establish that world, create atmosphere, embody an idea, illustrate an action, expose a relationship, protect reading space or unite the composition. Look in supporting content as well as the opening. A tidy text layout that bypasses strong opportunities fails the design goal. Atmosphere is valuable without proving a mechanism; factual diagrams still need truthful connections. Use the eleven TYY lenses (resource: references/tyy-anchor.md) for deeper calibration, not an asset quota.
+
+## Start in the actual host
+
+Resolve the design and production method through this core, then read the relevant recipe and host instructions for its operations. Attachments supply guidance, not tools or a shared filesystem. Portable text uses `RESOURCE: path` sections. Ask only for missing input or capability that materially blocks the task.
+
+## Create as one coordinated task
+
+1. **Set the job.** Resolve the audience, message, required facts and requested output. Otherwise choose a useful supported medium. Establish editing operations when requested.
+2. **Resolve the visual experience.** Turn important messages into concrete visible subjects, actions and relationships, including useful supporting content. Compose them with the subject's setting, atmosphere, calm reading fields and shared identity. Specify what the viewer sees and understands in each selected expression; headings, containers and a hero alone leave supporting meaning unresolved. Use the worked decisions (resource: references/meaning.md) and one relevant selected reference (resource: references/native-calibration.md) to resolve valuable opportunities before selecting production tools. Transfer its visual functions into this subject, not its layout or historical facts. Adapt richness to the audience and task.
+
+   Carry one map through production: **message/region → concrete visible expression and audience benefit → responsible tool → actual result → placement**. Resolve the expression and its relationship to the information before assigning its tool. For example: human assistance → librarian receiving a reader's question beside the handoff explanation. Working context or an existing record suffices; small work needs only a few settled sentences.
+
+3. **Choose tools to realise that design.** Honour a specified method; otherwise choose by the complete visual experience and actual delivery, precision, interaction or editing needs. PNG can be generated whole or assembled; readable copy belongs to either. Choose assembly for a useful contribution to this design, rather than renderer availability alone. For whole-image generation, brief the world, main/supporting expressions, relationships and copy together. For assembly, produce/source the selected contributions at their planned dimensions, crop and layers; actually call the available image-generation tool for planned new illustrations. Retain and inspect actual results and obtain usable files/asset IDs through supported transfer. See production (resource: references/production.md).
+4. **Assemble and harmonise where required.** Place the actual contributions with readable information and truthful relationships. Carry the same map through artwork and assembly in this task. Coordinate scale, crop, layers, colour and detail across the whole canvas. Continue dependent placement once its asset is available; independent work can proceed meanwhile. If a contribution fails, resolve that operation while preserving its intended benefit. A different deliverable needs agreement.
+5. **Inspect and correct the result.** Open/render the delivered artifact and inspect each page and its supporting regions. Establish **what intended meaning is visible, where it is visible, and which important benefit is still missing**. Review world, atmosphere, relationships, composition, reading fields, harmony, evidence and closure. Revisit opportunities omitted from the plan. Restore missing visual meaning before cosmetic polish, then check facts, readability, geometry, requested editing and delivery. Refine and inspect again. Disclose unavailable visual verification. See review (resource: references/review.md).
+6. **Deliver.** Attach/show the finished artifact and required companions. State material shortfalls and checks actually performed. If the host requires user continuation, identify that specific limit and next action; intermediate artwork leaves required assembly unfinished.
+
+### Requested visual PPTX: execute the illustrated plan
+
+Read presentations (resource: references/presentations.md) before construction. The writer consumes the same design, actual artwork and placements, including supporting regions. Use its consumed layout/asset structure or the optional checked execution helpers (resource: references/execution.md). Verify actual embedded media and required editable information. The AI coordinates these operations; the user need not request each stage. Explicit plain-material requests and narrow edits retain their scope.
+
+For sets, assign complementary page jobs and use the intended proportions. Teaching makes the worked situation or mechanism tangible, with copyable code/data companions when needed. Existing-artifact conversion is a user-requested branch. Scoped refinements preserve useful identity; redesign may replace it.
+
+RESOURCE: references/tyy-anchor.md
+
+# Eleven TYY lenses
+
+
+The founding reference is the participant's **TYY_Capstone_Core Philosophy Principal File.pptx**, a seven-slide Ghibli Park Ticket Assistant pitch. The eleven ratings below are participant feedback, not independent user research or industry certification. The deck was rendered and inspected during development.
+
+| Participant's criterion and rating | Evidence in the TYY deck | Transferable design principle | Context-sensitive application |
+|---|---|---|---|
+| **Topic-specific visual world — Excellent** | Park imagery and the visitor journey make Ghibli Park integral to the pitch | Ground visual choices in the actual subject and setting; visuals should not be retitle-ready decoration | Express the subject through the appropriate visual language: an environment, identifying objects, a precise technical diagram, evidence or a composed service explanation |
+| **Atmosphere as world-building — Excellent** | Place, visitor experience, color, and scenes establish tone across the deck | Atmosphere can orient the audience and establish credibility, tone, or experience | Use the amount of atmosphere the job can carry; quiet restraint can be the right world |
+| **Calm reading field — Excellent** | Warm neutral fields separate dense information from richly illustrated surroundings | Protect a clear reading surface and a strong hierarchy | The reading field may be white space, a solid panel, a structured grid, or another accessible treatment; cream is not required |
+| **Integrated illustration and content — Excellent** | The park environment, visitor groups, process, and supporting symbols relate to the message | Make visuals and information reinforce one proposition instead of operating as unrelated layers | The integrating visual may be a chart, photo, interface capture, native diagram, type, or illustration |
+| **Varied content-led composition — Excellent** | Slides shift among a cover, project summary, pitch/flow, audience map, process/architecture, demo, and appendices | Let each composition answer its communication job while retaining enough identity to feel like one work | Do not vary layouts for novelty; do not repeat a template when the information relationships differ |
+| **Meaningful process/connectors — Strong** | Slide 5 uses ordered stages and arrows for an actual service flow | Connectors, numbering, and sequence must express real relationships | Label ambiguous relationships. Do not add arrows to static or unrelated items merely to create movement |
+| **Illustrated icon/object language — Strong** | Small images and illustrated symbols reinforce park, visitor, and process topics | Supporting assets should add recognition or meaning and belong to a coherent visual language | Reinforce and distinguish related content with topic-specific illustrated objects or symbols. Choose their detail, number and scale for the message, medium and audience; preserve the useful visual contribution |
+| **Evidence alongside claim — Strong** | The deck pairs solution explanation with a Copilot Studio interface capture and demo storyline | Pair claims with the closest available evidence and make the relationship visible | A UI screenshot can show what was built or how a flow works; it does not by itself prove adoption, performance, safety, or impact |
+| **Semantic colour — Strong** | Accent colors distinguish audience/process roles alongside the larger palette | Color should support grouping, status, or meaning—not merely decorate | Use labels, shape, or position as well when color alone would exclude or confuse readers |
+| **Generic-template resistance — Excellent** | The visual logic is specific to the park, its visitors, and its ticketing problem | Avoid interchangeable layouts and imagery that could fit any topic unchanged | Reuse structure for navigation or real content patterns. Make the subject specific through meaningful scenes, objects, actions, evidence and relationships; choose treatments for this audience |
+| **Narrative closure — Strong** | The deck finishes with supporting documents, resume, and a clear thank-you | Give multi-part communication a useful ending: evidence, reference material, takeaway, or next action | A single poster or one-page diagram may not need a separate conclusion; closure should fit the format |
+
+Choose the strongest relevant opportunities for this brief and identify their visible expression in the artifact. Explain a consequential omission by the audience benefit lost and the value of an alternative. The eleven principles are lenses for judgment, not an asset quota or a fixed template.
+
+Evaluate what each choice establishes, clarifies, connects, supports or makes easier to read. Explicit plain-material requests and narrow edits can justify restraint; generic convenience does not justify bypassing useful visual meaning. Keep the source's particular imagery and identity tied to its intended use.

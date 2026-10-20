@@ -1,0 +1,3 @@
+# Only the native PPTX adapter needs this optional dependency.
+# The coordinator and HTML adapter use the Python standard library.
+python-pptx>=1.0,<2
