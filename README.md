@@ -8,7 +8,7 @@ Le_SensVisual is an AI agent skill for turning information into coherent visual 
 
 Its foundation is **TYY**: build a recognisable world around the subject, carry meaningful visuals into supporting content, and give the information calm, readable space.
 
-[Get the skill](https://github.com/zacqual-sudoGit/Le_SensVisual/releases/tag/v0.4.0-rc.23) · [Installation guide](le-sensvisual/INSTALL.md) · [Visual references](le-sensvisual/examples/INDEX.md) · [Release notes](RELEASE-NOTES.md)
+[Get the skill](https://github.com/zacqual-sudoGit/Le_SensVisual/releases/tag/v0.4.0-rc.23) · [How to use](GUIDE.md) · [Installation guide](le-sensvisual/INSTALL.md) · [Visual references](le-sensvisual/examples/INDEX.md) · [Release notes](RELEASE-NOTES.md)
 
 ![Gardens composition showing a shared setting and distinct illustrated supporting regions](le-sensvisual/examples/gardens/preview.jpg)
 
@@ -25,6 +25,8 @@ Its foundation is **TYY**: build a recognisable world around the subject, carry 
 The skill guides visual decisions and production. It does not prescribe a single aesthetic, require HTML or force image generation for every task.
 
 ## Get started
+
+Read the [user guide](GUIDE.md) for setup by app, example briefs, all 24 micro commands and practical ways to improve a result.
 
 ### Coding agents
 

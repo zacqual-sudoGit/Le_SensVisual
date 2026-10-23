@@ -14,6 +14,11 @@
       "sha256": "bd7b4340f5bc1615ca783b92586e450b500373dedbfd408c7d5304cee33b3d54"
     },
     {
+      "path": "GUIDE.md",
+      "bytes": 11730,
+      "sha256": "ca0eeb2856cc91c1a2deb385654e7d835143e30a1ef67c3edf977f251d6353f5"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1062,
       "sha256": "21c1143f6ecd1dc587e46f04d721f0e735908a85a5cc6f74fc6d61c0bddcaad7"
@@ -25,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6638,
-      "sha256": "ab2bdab2a240c73a9f78c37cdeedad15d2b1f6253c7f50d07ee9c718ca4be860"
+      "bytes": 6793,
+      "sha256": "858f88d3a5a05f3dc20d1e378336b654f3b61abf9258fcfaa3578ffed1905cc8"
     },
     {
       "path": "RELEASE-NOTES.md",
